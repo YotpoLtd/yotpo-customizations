@@ -1,0 +1,34 @@
+<div class="title" ng-if="outlook">
+    <h2>{{ 'REVIEW.WRITE' | translate }}</h2>
+</div>
+
+<div class="title" ng-if="!outlook && missedFields">
+    <h2>{{ 'SORRY' | translate }},</h2>
+    <p>{{ 'REVIEW.MISSED.NOTICE' | translate }}:</p>
+    <p>
+        <span ng-repeat="field in missedFields">
+            {{ ('REVIEW.MISSED.' + field.toUpperCase()) | translate }}{{ $last ? '' : ', ' }}
+        </span>
+    </p>
+</div>
+
+<form ng-submit="handlers.processForm()">
+    <div class="form-field form-field-radio" ng-init="scores = { '1': '★', '2': '★★', '3': '★★★', '4': '★★★★', '5': '★★★★★' }">
+        <span class="score score-{{ score }}" ng-repeat="(score, stars) in scores">
+            <input id="review_score_{{ score }}" name="review_score" type="radio" value="{{ score }}" ng-model="formData.review_score">
+            <label for="review_score_{{ score }}" style="color: #{{ starsColor }};">{{ stars }}</label>
+        </span>
+    </div>
+
+    <div class="form-field" ng-if="reviewTitleRequired">
+        <input class="form-input" id="review_title" name="review_title" placeholder="{{ 'REVIEW.TITLE' | translate }}" type="text" ng-model="formData.review_title">
+    </div>
+
+    <div class="form-field">
+        <textarea class="form-input" id="review_content" name="review_content" placeholder="{{ 'REVIEW.CONTENT' | translate }}" ng-model="formData.review_content"></textarea>
+    </div>
+
+    <div class="form-field">
+        <input name="commit" type="submit" value="{{ 'SUBMIT' | translate }}">
+    </div>
+</form>

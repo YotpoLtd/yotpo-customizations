@@ -1,0 +1,173 @@
+@font-face {
+  font-family: 'HelveticaNeueLTStd';
+  src: url('fonts/helveticaneueltstd-th-webfont.eot'); /* IE9 Compat Modes */
+  src: url('fonts/helveticaneueltstd-th-webfont.eot?#iefix') format('embedded-opentype'),  /* IE6-IE8 */
+       url('fonts/helveticaneueltstd-th-webfont.woff') format('woff'), /* Modern Browsers */
+       url('fonts/helveticaneueltstd-th-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('fonts/helveticaneueltstd-th-webfont.svg#HelveticaNeueLTStd35Thin') format('svg'); /* Legacy iOS */
+}
+
+/** Layout **/
+body {
+  background-color: white;
+  font-family: 'HelveticaNeueLTStd', 'Verdana';
+}
+
+/* Header */
+.header {
+  background-color: #4d4d4d;
+  margin: 0;
+  height: 30px;
+}
+
+.header .home {
+  display: inline-block;
+  width: 19px;
+  height: 19px;
+  background: url('images/home.png') no-repeat;
+  margin: 5px 0 0 10px;
+}
+
+/* Logo */
+.store-logo {
+  background-color: transparent;
+  border-bottom: 1px #e7e7e7 solid;
+  padding: 15px 0;
+}
+
+.store-logo .mobile {
+  display: none;
+}
+
+.store-logo img {
+  margin-bottom: 0;
+}
+
+/* Main */
+.main {
+  width: auto;
+  margin: 5px 20px;
+  box-shadow: none;
+}
+
+/* Footer */
+.footer {  
+  background-color: transparent;
+  border-top: 1px #e7e7e7 solid;
+  font-size: 15px;
+}
+
+.footer .copyright {
+  color: #2b2b2b;
+  font-weight: bold;
+}
+
+.footer .rights {
+  color: #5f5f5f;
+}
+
+/* Page content */
+.content {
+  color: #1b1b1b;
+}
+.content .title {
+  font-family: inherit;
+  font-size: 17px;
+}
+
+/* Score */
+.content .form .form-field.form-field-radio .score {
+  display: inline-block;
+}
+.content .form .form-field.form-field-radio .score label {
+  color: #cd0303;
+}
+
+/* Buttons */
+.content .form .form-field input[type=submit],
+a.button {
+  padding: 10px;
+  color: white;
+  background-color: #cd0303;
+  background-image: none;
+  border: none;
+  box-shadow: none;
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.button {
+  display: inline-block;
+  width: 250px;
+  margin: 10px 5px;
+}
+.button.gray {
+  background-color: #666666;
+}
+
+/* Mobile devices */
+@media only screen and (max-width: 480px) {
+  /* Main */
+  .main {
+    width: 100%;
+    margin: 0;
+  }
+
+  /* Header */
+  .header {
+    display: none;
+  }
+
+  /* Logo */
+  .store-logo .desktop {
+    display: none;
+  }
+  .store-logo .mobile {
+    display: block;
+  }
+
+  /* Page content */
+  .content {
+    padding-bottom: 140px;
+  }
+
+  /* Footer */
+  .footer {
+    background-color: #f7f7f7;
+    padding: 50px 0;
+  }
+  .footer span {
+    display: block;
+  }
+
+  /* Form */
+  .content .form .form-field .form-input {
+    width: 80%;
+  }
+
+  /* Scores */
+  .content .form .form-field.form-field-radio .score {
+    padding: 5px 0;
+    margin: 0;
+  }
+  .content .form .form-field.form-field-radio .score-1,
+  .content .form .form-field.form-field-radio .score-2,
+  .content .form .form-field.form-field-radio .score-3 {
+    width: 33%;
+  }
+  .content .form .form-field.form-field-radio .score-4,
+  .content .form .form-field.form-field-radio .score-5 {
+    width: 50%;
+  }
+  .content .form .form-field.form-field-radio .score-1,
+  .content .form .form-field.form-field-radio .score-4 {
+    text-align: right;
+  }
+  .content .form .form-field.form-field-radio .score-3,
+  .content .form .form-field.form-field-radio .score-5 {
+    text-align: left;
+  }
+}

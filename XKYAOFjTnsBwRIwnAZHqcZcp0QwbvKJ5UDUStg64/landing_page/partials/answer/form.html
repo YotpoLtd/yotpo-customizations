@@ -1,0 +1,23 @@
+<div class="title" ng-if="outlook">
+    <h2>{{ 'ANSWER.WRITE' | translate }}</h2>
+</div>
+
+<div class="title" ng-if="!outlook && missedFields">
+    <h2>{{ 'SORRY' | translate }},</h2>
+    <p>{{ 'ANSWER.MISSED.NOTICE' | translate }}:</p>
+    <p>
+        <span ng-repeat="field in missedFields">
+            {{ ('ANSWER.MISSED.' + field.toUpperCase()) | translate }}{{ $last ? '' : ', ' }}
+        </span>
+    </p>
+</div>
+
+<form ng-submit="handlers.processForm()">
+    <div class="form-field">
+        <textarea class="form-input" id="content" name="content" placeholder="{{ 'ANSWER.CONTENT' | translate }}" ng-model="formData.content"></textarea>
+    </div>
+
+    <div class="form-field">
+        <input name="commit" type="submit" value="{{ 'SUBMIT' | translate }}">
+    </div>
+</form>

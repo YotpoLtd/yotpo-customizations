@@ -1,0 +1,19 @@
+<link rel="stylesheet" type="text/css" ng-href="{{ templatePath + '/styles.css' }}">
+
+<div class="{{ controller }}">
+    <div class="header">
+        <a href="http://www.staples.com/" class="home"></a>
+    </div>
+
+    <div class="store-logo">
+        <img class="desktop" ng-src="{{ templatePath + '/images/logo-desktop.png' }}"/>
+        <img class="mobile" ng-src="{{ templatePath + '/images/logo-mobile.png' }}"/>
+    </div>
+
+    <div class="content" ng-include="templatePath + '/' + layout + '.html'"></div>
+
+    <div class="footer">
+        <span class="copyright">Copyright 1998-{{ today | date: 'yyyy' }},</span>
+        <span class="rights">Staples, Inc., All Rights Reserved.</span>
+    </div>
+</div>

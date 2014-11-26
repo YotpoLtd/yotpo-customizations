@@ -1,0 +1,12 @@
+<div class="form" style="color: #{{ fontColor }};" ng-include="templatePath + '/partials/answer/form.html'" ng-if="!item && missedFields"></div>
+
+<div class="title" style="color: #{{ fontColor }};" ng-if="item">
+    <h1>{{ ('ANSWER.THANK_YOU' | translate).replace('%{posted_object}', 'answer') }}</h1>
+</div>
+
+<div class="error title" style="color: #{{ fontColor }};" ng-if="error">
+    <h1>Oops! Something went wrong, and your answer hasn't been posted yet.</h1>
+    <p>We'd really love to hear from you -- please try posting again in 10 minutes.</p>
+</div>
+
+<div class="affiliations" ng-include="templatePath + 'partials/affiliations.html'" ng-if="affiliations && item"></div>

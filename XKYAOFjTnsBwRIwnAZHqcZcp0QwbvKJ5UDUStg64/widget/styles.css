@@ -628,6 +628,7 @@
     width: 100%;
     vertical-align: middle; }
   .yotpo .write-review .socialize-wrapper {
+    display: none;
     width: 273px;
     position: absolute; }
     .yotpo .write-review .socialize-wrapper .socialize {
@@ -645,7 +646,7 @@
       display: none;
       margin-top: 40px; }
   .yotpo .write-review .connect-wrapper {
-    padding-left: 273px;
+    padding-left: 0;
     width: 100%;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;

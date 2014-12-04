@@ -751,6 +751,8 @@
       content: '\e60a';
       font-family: "yotpo-widget-font";
       margin-right: 2px; }
+    .yotpo .yotpo-review .yotpo-header.custom-badge .yotpo-header-element .y-label.yotpo-user-title {
+      color: black; }
     .yotpo .yotpo-review .yotpo-header.yotpo-store-owner .yotpo-icon-circle-checkmark, .yotpo .yotpo-comment .yotpo-header.yotpo-store-owner .yotpo-icon-circle-checkmark, .yotpo .yotpo-question .yotpo-header.yotpo-store-owner .yotpo-icon-circle-checkmark {
       display: inline-block;
       color: #efae00; }

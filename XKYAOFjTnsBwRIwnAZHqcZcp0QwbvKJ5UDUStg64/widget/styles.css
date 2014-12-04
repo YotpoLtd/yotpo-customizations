@@ -446,6 +446,7 @@
     padding: 25px 0px 15px 0px;
     margin: 0 10px; }
   .yotpo .yotpo-comments-box {
+    margin-left: 22px;
     border-left: 2px solid #ee999b;
     margin-top: 25px; }
     .yotpo .yotpo-comments-box .yotpo-comment-box {
@@ -668,6 +669,9 @@
     margin-bottom: 10px;
     float: right;
     margin-top: 15px !important; }
+  .yotpo .write-review .yotpo-toa {
+    padding-left: 0;
+    width: 85%; }
   .yotpo .write-review .yotpo-preloader-wrapper {
     float: right;
     width: 88px;
@@ -843,9 +847,15 @@
   .yotpo .yotpo-review .rest-content-collapsed, .yotpo .yotpo-comment .rest-content-collapsed, .yotpo .yotpo-question .rest-content-collapsed {
     display: none;
     color: inherit; }
-  .yotpo .yotpo-review .yotpo-comments-box, .yotpo .yotpo-comment .yotpo-comments-box, .yotpo .yotpo-question .yotpo-comments-box {
+  .yotpo .yotpo-review .yotpo-footer.yotpo-show-more, .yotpo .yotpo-comment .yotpo-footer.yotpo-show-more, .yotpo .yotpo-question .yotpo-footer.yotpo-show-more {
+    padding-top: 25px; }
+    .yotpo .yotpo-review .yotpo-footer.yotpo-show-more label, .yotpo .yotpo-comment .yotpo-footer.yotpo-show-more label, .yotpo .yotpo-question .yotpo-footer.yotpo-show-more label {
+      text-transform: none; }
+  .yotpo .yotpo-review .yotpo-comments-box, .yotpo .yotpo-comment .yotpo-comments-box, .yotpo .yotpo-question .yotpo-comments-box,
+  .yotpo .yotpo-review .yotpo-show-more, .yotpo .yotpo-comment .yotpo-show-more, .yotpo .yotpo-question .yotpo-show-more {
     display: none; }
-    .yotpo .yotpo-review .yotpo-comments-box.visible, .yotpo .yotpo-comment .yotpo-comments-box.visible, .yotpo .yotpo-question .yotpo-comments-box.visible {
+    .yotpo .yotpo-review .yotpo-comments-box.visible, .yotpo .yotpo-comment .yotpo-comments-box.visible, .yotpo .yotpo-question .yotpo-comments-box.visible,
+    .yotpo .yotpo-review .yotpo-show-more.visible, .yotpo .yotpo-comment .yotpo-show-more.visible, .yotpo .yotpo-question .yotpo-show-more.visible  {
       display: inherit; }
   .yotpo .error-box {
     position: relative;

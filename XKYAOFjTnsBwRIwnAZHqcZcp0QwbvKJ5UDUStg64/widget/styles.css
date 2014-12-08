@@ -745,9 +745,11 @@
     .yotpo .yotpo-review .yotpo-header.yotpo-verified-buyer .yotpo-icon-circle-checkmark, .yotpo .yotpo-comment .yotpo-header.yotpo-verified-buyer .yotpo-icon-circle-checkmark, .yotpo .yotpo-question .yotpo-header.yotpo-verified-buyer .yotpo-icon-circle-checkmark {
       display: inline-block;
       color: #3aba6f; }
-    .yotpo .yotpo-review .yotpo-header.yotpo-verified-buyer .yotpo-header-element .y-label.yotpo-user-title {
+    .yotpo .yotpo-review .yotpo-header.yotpo-verified-buyer .yotpo-header-element .y-label.yotpo-user-title,
+    .yotpo .yotpo-question .yotpo-header.yotpo-verified-buyer .yotpo-header-element .y-label.yotpo-user-title {
       color: #3aba6f; }
-    .yotpo .yotpo-review .yotpo-header.yotpo-verified-buyer .yotpo-header-element .y-label.yotpo-user-title:before {
+    .yotpo .yotpo-review .yotpo-header.yotpo-verified-buyer .yotpo-header-element .y-label.yotpo-user-title:before,
+    .yotpo .yotpo-question .yotpo-header.yotpo-verified-buyer .yotpo-header-element .y-label.yotpo-user-title:before {
       content: '\e60a';
       font-family: "yotpo-widget-font";
       margin-right: 2px; }

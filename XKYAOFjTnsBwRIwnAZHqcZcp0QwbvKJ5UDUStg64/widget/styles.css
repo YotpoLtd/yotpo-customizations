@@ -1128,7 +1128,8 @@
     position: relative;
     background: white; }
     .yotpo .yotpo-thank-you .yotpo-icon-cross,
-    .yotpo .write-review-wrapper .yotpo-icon-cross {
+    .yotpo .write-review-wrapper .yotpo-icon-cross,
+    .yotpo .write-question-wrapper .yotpo-icon-cross {
       position: absolute;
       top: 15px;
       right: 15px;

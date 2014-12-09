@@ -1,0 +1,18 @@
+<div class="section">Related Products</div>
+<ul class="products">
+    <li class="product" ng-repeat="product in affiliations.affiliation_products_data">
+        <a href="{{ product.link }}" target="_blank">
+            <div class="picture">
+                <img ng-src="images/product.png" ng-if="!product.picture" />
+                <img ng-src="{{ product.picture }}" ng-if="product.picture" />
+            </div>
+            <div class="name">{{ product.name }}</div>
+            <div class="stars">
+                <ul ng-if="product.stars != '00000'">
+                    <li ng-repeat="star in product.stars track by $index" class="star {{ star == '0' ? 'empty' : '' }} {{ star == '1' ? 'half' : '' }}">
+                    </li>
+                </ul>
+            </div>
+        </a>
+    </li>
+</ul>

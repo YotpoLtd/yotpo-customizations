@@ -1,0 +1,35 @@
+<div class="section">Answer</div>
+
+<div class="title" ng-if="outlook">
+    <h2>Can you help?</h2>
+</div>
+
+<div class="title" ng-if="!outlook && missedFields">
+    <h2>{{ 'SORRY' | translate }},</h2>
+    <p>{{ 'ANSWER.MISSED.NOTICE' | translate }}:</p>
+    <p>
+        <span ng-repeat="field in missedFields">
+            {{ ('ANSWER.MISSED.' + field.toUpperCase()) | translate }}{{ $last ? '' : ', ' }}
+        </span>
+    </p>
+</div>
+
+<div class="description" ng-if="question">
+    You reviewed the <a href="{{ question.products_app.product_url }}">{{ question.products_app.product.name }}</a> and a fellow shopper has a question. We really appriciate your help.
+</div>
+
+<div class="question" ng-if="question">
+    <p class="bold">Q: {{ question.content }}</p>
+    <p class="date">{{ question.created_at | date: 'MM/dd/yyyy' }}<p>
+</div>
+
+<form ng-submit="handlers.processForm()">
+    <div class="form-field">
+        <label for="content">Write your answer here:</label>
+        <textarea class="form-input" id="content" name="content" ng-model="formData.content" rows="6"></textarea>
+    </div>
+
+    <div class="form-field">
+        <input name="commit" type="submit" value="{{ 'SUBMIT' | translate }}">
+    </div>
+</form>

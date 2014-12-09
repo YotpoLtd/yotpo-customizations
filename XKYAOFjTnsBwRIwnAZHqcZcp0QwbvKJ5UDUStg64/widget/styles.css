@@ -185,15 +185,15 @@
 /* Icons */
 @font-face {
   font-family: 'yotpo-widget-font';
-  src: url("//staticw2.yotpo.com/assets/yotpo-widget-font.eot");
-  src: url("//staticw2.yotpo.com/assets/yotpo-widget-font.eot") format("embedded-opentype"), url("//staticw2.yotpo.com/assets/yotpo-widget-font.woff") format("woff"), url("//staticw2.yotpo.com/assets/yotpo-widget-font.ttf") format("truetype"), url("//staticw2.yotpo.com/assets/yotpo-widget-font.svg") format("svg");
+  src: url("//staticw2.yotpo.com/assets/yotpo-widget-font-4b5666654ad675f6df21bbf72500ac05.eot");
+  src: url("//staticw2.yotpo.com/assets/yotpo-widget-font-4b5666654ad675f6df21bbf72500ac05.eot") format("embedded-opentype"), url("//staticw2.yotpo.com/assets/yotpo-widget-font-4b5666654ad675f6df21bbf72500ac05.woff") format("woff"), url("//staticw2.yotpo.com/assets/yotpo-widget-font-4b5666654ad675f6df21bbf72500ac05.ttf") format("truetype"), url("//staticw2.yotpo.com/assets/yotpo-widget-font-4b5666654ad675f6df21bbf72500ac05.svg") format("svg");
   font-weight: normal;
   font-style: normal; }
 
 @media screen and (-webkit-min-device-pixel-ratio: 0) {
   @font-face {
     font-family: 'yotpo-widget-font';
-    src: url("//staticw2.yotpo.com/assets/yotpo-widget-font.svg") format("svg"); } }
+    src: url("//staticw2.yotpo.com/assets/yotpo-widget-font-4b5666654ad675f6df21bbf72500ac05.svg") format("svg"); } }
 .yotpo {
   /* End Icons */
   /* Buttons */
@@ -446,6 +446,7 @@
     padding: 25px 0px 15px 0px;
     margin: 0 10px; }
   .yotpo .yotpo-comments-box {
+    margin-left: 22px;
     border-left: 2px solid #ee999b;
     margin-top: 25px; }
     .yotpo .yotpo-comments-box .yotpo-comment-box {
@@ -628,6 +629,7 @@
     width: 100%;
     vertical-align: middle; }
   .yotpo .write-review .socialize-wrapper {
+    display: none;
     width: 273px;
     position: absolute; }
     .yotpo .write-review .socialize-wrapper .socialize {
@@ -645,7 +647,7 @@
       display: none;
       margin-top: 40px; }
   .yotpo .write-review .connect-wrapper {
-    padding-left: 273px;
+    padding-left: 0;
     width: 100%;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -667,6 +669,9 @@
     margin-bottom: 10px;
     float: right;
     margin-top: 15px !important; }
+  .yotpo .write-review .yotpo-toa {
+    padding-left: 0;
+    width: 85%; }
   .yotpo .write-review .yotpo-preloader-wrapper {
     float: right;
     width: 88px;
@@ -740,6 +745,16 @@
     .yotpo .yotpo-review .yotpo-header.yotpo-verified-buyer .yotpo-icon-circle-checkmark, .yotpo .yotpo-comment .yotpo-header.yotpo-verified-buyer .yotpo-icon-circle-checkmark, .yotpo .yotpo-question .yotpo-header.yotpo-verified-buyer .yotpo-icon-circle-checkmark {
       display: inline-block;
       color: #3aba6f; }
+    .yotpo .yotpo-review .yotpo-header.yotpo-verified-buyer .yotpo-header-element .y-label.yotpo-user-title,
+    .yotpo .yotpo-question .yotpo-header.yotpo-verified-buyer .yotpo-header-element .y-label.yotpo-user-title {
+      color: #3aba6f; }
+    .yotpo .yotpo-review .yotpo-header.yotpo-verified-buyer .yotpo-header-element .y-label.yotpo-user-title:before,
+    .yotpo .yotpo-question .yotpo-header.yotpo-verified-buyer .yotpo-header-element .y-label.yotpo-user-title:before {
+      content: '\e60a';
+      font-family: "yotpo-widget-font";
+      margin-right: 2px; }
+    .yotpo .yotpo-review .yotpo-header.custom-badge .yotpo-header-element .y-label.yotpo-user-title {
+      color: black; }
     .yotpo .yotpo-review .yotpo-header.yotpo-store-owner .yotpo-icon-circle-checkmark, .yotpo .yotpo-comment .yotpo-header.yotpo-store-owner .yotpo-icon-circle-checkmark, .yotpo .yotpo-question .yotpo-header.yotpo-store-owner .yotpo-icon-circle-checkmark {
       display: inline-block;
       color: #efae00; }
@@ -836,9 +851,15 @@
   .yotpo .yotpo-review .rest-content-collapsed, .yotpo .yotpo-comment .rest-content-collapsed, .yotpo .yotpo-question .rest-content-collapsed {
     display: none;
     color: inherit; }
-  .yotpo .yotpo-review .yotpo-comments-box, .yotpo .yotpo-comment .yotpo-comments-box, .yotpo .yotpo-question .yotpo-comments-box {
+  .yotpo .yotpo-review .yotpo-footer.yotpo-show-more, .yotpo .yotpo-comment .yotpo-footer.yotpo-show-more, .yotpo .yotpo-question .yotpo-footer.yotpo-show-more {
+    padding-top: 25px; }
+    .yotpo .yotpo-review .yotpo-footer.yotpo-show-more label, .yotpo .yotpo-comment .yotpo-footer.yotpo-show-more label, .yotpo .yotpo-question .yotpo-footer.yotpo-show-more label {
+      text-transform: none; }
+  .yotpo .yotpo-review .yotpo-comments-box, .yotpo .yotpo-comment .yotpo-comments-box, .yotpo .yotpo-question .yotpo-comments-box,
+  .yotpo .yotpo-review .yotpo-show-more, .yotpo .yotpo-comment .yotpo-show-more, .yotpo .yotpo-question .yotpo-show-more {
     display: none; }
-    .yotpo .yotpo-review .yotpo-comments-box.visible, .yotpo .yotpo-comment .yotpo-comments-box.visible, .yotpo .yotpo-question .yotpo-comments-box.visible {
+    .yotpo .yotpo-review .yotpo-comments-box.visible, .yotpo .yotpo-comment .yotpo-comments-box.visible, .yotpo .yotpo-question .yotpo-comments-box.visible,
+    .yotpo .yotpo-review .yotpo-show-more.visible, .yotpo .yotpo-comment .yotpo-show-more.visible, .yotpo .yotpo-question .yotpo-show-more.visible  {
       display: inherit; }
   .yotpo .error-box {
     position: relative;
@@ -1103,34 +1124,51 @@
   .yotpo .yotpo-thank-you {
     border: solid 1px #e3e3e3;
     padding: 40px;
-    text-align: center;
+    text-align: left;
     position: relative;
     background: white; }
-    .yotpo .yotpo-thank-you .yotpo-icon-cross {
+    .yotpo .yotpo-icon-cross {
       position: absolute;
       top: 15px;
       right: 15px;
       font-size: 19px; }
+    .yotpo .error-box .yotpo-icon-cross {
+      position: static; }
     .yotpo .yotpo-thank-you .yotpo-thankyou-header {
       margin-bottom: 20px; }
       .yotpo .yotpo-thank-you .yotpo-thankyou-header span {
         text-transform: uppercase;
         font-weight: bold;
-        color: #d50005;
+        color: #959595;
         font-size: 21px;
         line-height: 18px; }
       .yotpo .yotpo-thank-you .yotpo-thankyou-header .yotpo-icon {
         font-size: 26px;
-        display: block;
+        display: none;
         margin-bottom: 20px; }
     .yotpo .yotpo-thank-you .yotpo-thankyou-content {
       color: #4f4f4f;
       margin-bottom: 20px; }
     .yotpo .yotpo-thank-you .yotpo-thankyou-footer .yotpo-default-button {
-      padding: 6px 0;
+      padding: 0;
+      background-color: transparent;
       vertical-align: top; }
     .yotpo .yotpo-thank-you .yotpo-thankyou-footer .social-link {
-      padding: 6px 11px; }
+      display: inline-block;
+      width: 40px;
+      height: 40px;
+      padding: 0;
+      background-size: 100% !important; }
+    .yotpo .yotpo-thank-you .yotpo-thankyou-footer .social-link[data-network=facebook] {
+      background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KCgo8IS0tIFRoZSBpY29uIGNhbiBiZSB1c2VkIGZyZWVseSBpbiBib3RoIHBlcnNvbmFsIGFuZCBjb21tZXJjaWFsIHByb2plY3RzIHdpdGggbm8gYXR0cmlidXRpb24gcmVxdWlyZWQsIGJ1dCBhbHdheXMgYXBwcmVjaWF0ZWQuIApZb3UgbWF5IE5PVCBzdWItbGljZW5zZSwgcmVzZWxsLCByZW50LCByZWRpc3RyaWJ1dGUgb3Igb3RoZXJ3aXNlIHRyYW5zZmVyIHRoZSBpY29uIHdpdGhvdXQgZXhwcmVzcyB3cml0dGVuIHBlcm1pc3Npb24gZnJvbSBpY29ubW9uc3RyLmNvbSAtLT4KCgo8IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPgoKPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IgoKCSB3aWR0aD0iNTEycHgiIGhlaWdodD0iNTEycHgiIHZpZXdCb3g9IjAgMCA1MTIgNTEyIiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCA1MTIgNTEyIiB4bWw6c3BhY2U9InByZXNlcnZlIj4KCjxwYXRoIGlkPSJmYWNlYm9vay1jaXJjbGUtaWNvbiIgZmlsbD0iIzY2NjY2NiIgZD0iTTI1Ni40MTcsNTBjLTExMy43NzEsMC0yMDYsOTIuMjI5LTIwNiwyMDZzOTIuMjI5LDIwNiwyMDYsMjA2czIwNi05Mi4yMjksMjA2LTIwNgoKCVMzNzAuMTg4LDUwLDI1Ni40MTcsNTB6IE0zMTcuMzg1LDE3MS4xOTJjMCwwLTIwLjYwNCwwLTI4Ljc4OSwwYy0xMC4xNjIsMC0xMi4yOCw0LjE2My0xMi4yOCwxNC42NzhjMCw4Ljc1LDAsMjUuNDA0LDAsMjUuNDA0CgoJaDQxLjA2OWwtMy45NTEsNDQuNTk2aC0zNy4xMTh2MTMzLjIyN2gtNTMuMlYyNTYuNDM1aC0yNy42NjZ2LTQ1LjE2aDI3LjY2NmMwLDAsMC02LjQ5MywwLTM1LjU2NQoKCWMwLTMzLjM3OSwxNy44NDktNTAuODA3LDU3LjQzNy01MC44MDdjNi40ODQsMCwzNi44MzMsMCwzNi44MzMsMFYxNzEuMTkyeiIvPgoKPC9zdmc+) !important; }
+    .yotpo .yotpo-thank-you .yotpo-thankyou-footer .social-link[data-network=twitter] {
+      background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KCgo8IS0tIFRoZSBpY29uIGNhbiBiZSB1c2VkIGZyZWVseSBpbiBib3RoIHBlcnNvbmFsIGFuZCBjb21tZXJjaWFsIHByb2plY3RzIHdpdGggbm8gYXR0cmlidXRpb24gcmVxdWlyZWQsIGJ1dCBhbHdheXMgYXBwcmVjaWF0ZWQuIApZb3UgbWF5IE5PVCBzdWItbGljZW5zZSwgcmVzZWxsLCByZW50LCByZWRpc3RyaWJ1dGUgb3Igb3RoZXJ3aXNlIHRyYW5zZmVyIHRoZSBpY29uIHdpdGhvdXQgZXhwcmVzcyB3cml0dGVuIHBlcm1pc3Npb24gZnJvbSBpY29ubW9uc3RyLmNvbSAtLT4KCgo8IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPgoKPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IgoKCSB3aWR0aD0iNTEycHgiIGhlaWdodD0iNTEycHgiIHZpZXdCb3g9IjAgMCA1MTIgNTEyIiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCA1MTIgNTEyIiB4bWw6c3BhY2U9InByZXNlcnZlIj4KCjxwYXRoIGlkPSJ0d2l0dGVyLTQtaWNvbiIgZmlsbD0iIzY2NjY2NiIgZD0iTTI1Niw1MEMxNDIuMjI5LDUwLDUwLDE0Mi4yMjksNTAsMjU2czkyLjIyOSwyMDYsMjA2LDIwNnMyMDYtOTIuMjI5LDIwNi0yMDZTMzY5Ljc3MSw1MCwyNTYsNTB6CgoJIE0zNTkuNTk5LDIyMC41MDZjMy4wMjEsNjcuMTk5LTQ3LjA5NiwxNDIuMTI0LTEzNS44MDIsMTQyLjEyNGMtMjYuOTgxLDAtNTIuMDk2LTcuOTExLTczLjIzOC0yMS40NjYKCgljMjUuMzQ3LDIuOTg3LDUwLjY0Ni00LjA0NCw3MC43MzQtMTkuNzg2Yy0yMC45MDctMC4zODYtMzguNTU0LTE0LjE5OC00NC42MzItMzMuMTgxYzcuNDg2LDEuNDMyLDE0Ljg1MSwxLjAxMywyMS41NzUtMC44MTYKCgljLTIyLjk3Ni00LjYxNy0zOC44MzktMjUuMzE3LTM4LjMyMS00Ny40NTNjNi40NCwzLjU4LDEzLjgxLDUuNzI5LDIxLjY0Miw1Ljk3N2MtMjEuMjc4LTE0LjIyMS0yNy4zMDMtNDIuMzE4LTE0Ljc4NS02My43ODkKCgljMjMuNTYzLDI4LjkwNiw1OC43Nyw0Ny45MjgsOTguNDc4LDQ5LjkyYy02Ljk2OS0yOS44ODYsMTUuNzAyLTU4LjY2Nyw0Ni41NDItNTguNjY3YzEzLjc0MiwwLDI2LjE2LDUuODAyLDM0Ljg3NCwxNS4wODgKCgljMTAuODg0LTIuMTQzLDIxLjEwOC02LjExOSwzMC4zNDEtMTEuNTk0Yy0zLjU2NywxMS4xNTctMTEuMTQ0LDIwLjUyMS0yMS4wMDgsMjYuNDMzYzkuNjY1LTEuMTUzLDE4Ljg3NC0zLjcyMiwyNy40NDEtNy41MjMKCglDMzc3LjAzNSwyMDUuMzU1LDM2OC45MzUsMjEzLjc3MSwzNTkuNTk5LDIyMC41MDZ6Ii8+Cgo8L3N2Zz4=) !important; }
+    .yotpo .yotpo-thank-you .yotpo-thankyou-footer .social-link[data-network=linkedin] {
+      background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KCgo8IS0tIFRoZSBpY29uIGNhbiBiZSB1c2VkIGZyZWVseSBpbiBib3RoIHBlcnNvbmFsIGFuZCBjb21tZXJjaWFsIHByb2plY3RzIHdpdGggbm8gYXR0cmlidXRpb24gcmVxdWlyZWQsIGJ1dCBhbHdheXMgYXBwcmVjaWF0ZWQuIApZb3UgbWF5IE5PVCBzdWItbGljZW5zZSwgcmVzZWxsLCByZW50LCByZWRpc3RyaWJ1dGUgb3Igb3RoZXJ3aXNlIHRyYW5zZmVyIHRoZSBpY29uIHdpdGhvdXQgZXhwcmVzcyB3cml0dGVuIHBlcm1pc3Npb24gZnJvbSBpY29ubW9uc3RyLmNvbSAtLT4KCgo8IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPgoKPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IgoKCSB3aWR0aD0iNTEycHgiIGhlaWdodD0iNTEycHgiIHZpZXdCb3g9IjAgMCA1MTIgNTEyIiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCA1MTIgNTEyIiB4bWw6c3BhY2U9InByZXNlcnZlIj4KCjxwYXRoIGlkPSJsaW5rZWRpbi1jaXJjbGUtaWNvbiIgZmlsbD0iIzY2NjY2NiIgZD0iTTI1Ni40MTcsNTBjLTExMy43NzEsMC0yMDYsOTIuMjI5LTIwNiwyMDZzOTIuMjI5LDIwNiwyMDYsMjA2czIwNi05Mi4yMjksMjA2LTIwNgoKCVMzNzAuMTg4LDUwLDI1Ni40MTcsNTB6IE0yMDEuNDU2LDM1NS41OTJoLTQ1LjIyOVYyMDkuNDY5aDQ1LjIyOVYzNTUuNTkyeiBNMTc4LjYyNiwxOTAuMzMzYy0xNC43NzEsMC0yNi43NDYtMTIuMDcyLTI2Ljc0Ni0yNi45NjMKCglzMTEuOTc1LTI2Ljk2MywyNi43NDYtMjYuOTYzYzE0Ljc3LDAsMjYuNzQ1LDEyLjA3MiwyNi43NDUsMjYuOTYzUzE5My4zOTYsMTkwLjMzMywxNzguNjI2LDE5MC4zMzN6IE0zNzAuOTUzLDM1NS41OTJoLTQ1LjAxCgoJYzAsMCwwLTU1LjY2NiwwLTc2LjcwM3MtNy45OTEtMzIuNzgxLTI0LjYyNi0zMi43ODFjLTE4LjEwMywwLTI3LjU2MiwxMi4yMzEtMjcuNTYyLDMyLjc4MWMwLDIyLjUwNCwwLDc2LjcwMywwLDc2LjcwM2gtNDMuMzgKCglWMjA5LjQ2OWg0My4zOHYxOS42NzljMCwwLDEzLjA0Ny0yNC4xMzcsNDQuMDMyLTI0LjEzN2MzMC45ODYsMCw1My4xNjUsMTguOTE4LDUzLjE2NSw1OC4wNTgKCglDMzcwLjk1MywzMDIuMjA5LDM3MC45NTMsMzU1LjU5MiwzNzAuOTUzLDM1NS41OTJ6Ii8+Cgo8L3N2Zz4=) !important; }
+    .yotpo .yotpo-thank-you .yotpo-thankyou-footer .social-link[data-network=googleplus] {
+      background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KCgo8IS0tIFRoZSBpY29uIGNhbiBiZSB1c2VkIGZyZWVseSBpbiBib3RoIHBlcnNvbmFsIGFuZCBjb21tZXJjaWFsIHByb2plY3RzIHdpdGggbm8gYXR0cmlidXRpb24gcmVxdWlyZWQsIGJ1dCBhbHdheXMgYXBwcmVjaWF0ZWQuIApZb3UgbWF5IE5PVCBzdWItbGljZW5zZSwgcmVzZWxsLCByZW50LCByZWRpc3RyaWJ1dGUgb3Igb3RoZXJ3aXNlIHRyYW5zZmVyIHRoZSBpY29uIHdpdGhvdXQgZXhwcmVzcyB3cml0dGVuIHBlcm1pc3Npb24gZnJvbSBpY29ubW9uc3RyLmNvbSAtLT4KCgo8IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPgoKPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IgoKCSB3aWR0aD0iNTEycHgiIGhlaWdodD0iNTEycHgiIHZpZXdCb3g9IjAgMCA1MTIgNTEyIiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCA1MTIgNTEyIiB4bWw6c3BhY2U9InByZXNlcnZlIj4KCjxwYXRoIGlkPSJnb29nbGUtcGx1cy1jaXJjbGUtaWNvbiIgZmlsbD0iIzY2NjY2NiIgZD0iTTI3My4zNjksMzMxLjY1OWMwLDIwLjI0Ny0xNi40NDMsMzYuMDY1LTUwLjQ4MSwzNi4wNjVjLTI2LjYyNSwwLTQ1Ljg1Mi0xNi44NTQtNDUuODUyLTM3LjEKCgljMC0xOS44NCwyMi41NjItMzYuOTU3LDQ5LjE4Ni0zNi42NjRDMjU1Ljc2MiwyOTMuOTYxLDI3My4zNjksMzEyLjM1OCwyNzMuMzY5LDMzMS42NTl6IE00NjIuNDE3LDI1N2MwLDExMy43NzEtOTIuMjI5LDIwNi0yMDYsMjA2CgoJcy0yMDYtOTIuMjI5LTIwNi0yMDZzOTIuMjI5LTIwNiwyMDYtMjA2UzQ2Mi40MTcsMTQzLjIyOSw0NjIuNDE3LDI1N3ogTTI5Ni4zMDMsMzI5LjMwNWMwLTE4LjY5MS02Ljk3OS0zMC45MDMtMjguMDk2LTQ2LjcyNQoKCWMtMjEuNDE3LTE1LjYxOS0yNi42NS0yNC40NDMtNi4yMDgtNDAuMjQ4YzExLjUxOS04LjkwNiwxOS41OTEtMjAuNzc4LDE5LjU5MS0zNS40MzZjMC0xNS45NjktNi41My0zMC40NTctMTguODA5LTM3LjQ5MmgxNy40MDQKCglsMTQuODE2LTE1LjU1MWMwLDAtNTUuODU0LDAtNjYuMzAzLDBjLTQxLjM5LDAtNjEuNjg1LDI0LjgwOS02MS42ODUsNTIuMDk4YzAsMjcuODg5LDE5LjEzMiw0OS44NTQsNTYuNDkyLDQ5Ljg1NAoKCWMtNS43OTIsMTEuNjkzLTMuNDY2LDIyLjQ5NCw2LjAxMSwzMC4yMTdjLTYzLjgwNywwLTc3LjQ2MSwyNy45OTgtNzcuNDYxLDQ5LjU2NmMwLDI3Ljk0NSwzMi4xMjMsNDQuNTU5LDcwLjY0Myw0NC41NTkKCglDMjc1LjM2NywzODAuMTQ2LDI5Ni4zMDMsMzUyLjIzNCwyOTYuMzAzLDMyOS4zMDV6IE0zODIuNzc2LDE4Ny41aC0zMC41ODl2LTMwLjU4OGgtMTUuMjkzVjE4Ny41aC0zMC41ODl2MTUuMjk0aDMwLjU4OXYzMC41ODgKCgloMTUuMjkzdi0zMC41ODhoMzAuNTg5VjE4Ny41eiBNMjU0Ljk0OSwyMDcuODk0Yy0zLjA4My0yMy40NjYtMTguMzcxLTQyLjcxOS0zNi4yMzQtNDMuMjU2CgoJYy0xNy44NjktMC41MzItMjkuODU0LDE3LjQyNy0yNi43NjcsNDAuODk5YzMuMDg1LDIzLjQ2NywyMC4wNjcsMzkuODU5LDM3LjkzOSw0MC4zOTgKCglDMjQ3Ljc1LDI0Ni40NjcsMjU4LjAzMSwyMzEuMzYzLDI1NC45NDksMjA3Ljg5NHoiLz4KCjwvc3ZnPg==) !important; }
+    .yotpo .yotpo-thank-you .yotpo-thankyou-footer .social-link > * {
+      display: none; }
   .yotpo .yotpo-first-review {
     margin-top: 50px;
     position: relative; }

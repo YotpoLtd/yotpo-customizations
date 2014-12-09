@@ -1131,7 +1131,8 @@
       position: absolute;
       top: 15px;
       right: 15px;
-      font-size: 19px; }
+      font-size: 19px;
+      color: #959595 !important; }
     .yotpo .error-box .yotpo-icon-cross {
       position: static; }
     .yotpo .yotpo-thank-you .yotpo-thankyou-header {
@@ -1985,7 +1986,8 @@ div.yotpo-preloader-wrapper {
 .yotpo.bottomLine .yotpo-icon-empty-star {
   color: transparent !important;
   background-color: transparent !important;
-  background-size: 100%; }
+  background-size: 100%;
+  background-repeat: no-repeat; }
 
 .yotpo.yotpo-main-widget .yotpo-icon-star,
 .yotpo.embedded-widget .yotpo-icon-star,

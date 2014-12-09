@@ -1,5 +1,7 @@
+<div class="section">Review</div>
+
 <div class="title" ng-if="outlook">
-    <h2>{{ 'REVIEW.WRITE' | translate }}</h2>
+    <h2>What'd you think?</h2>
 </div>
 
 <div class="title" ng-if="!outlook && missedFields">
@@ -12,20 +14,21 @@
     </p>
 </div>
 
+<div class="description" ng-if="product">
+    You recently purchased a <a href="{{ product.product_url }}">{{ product.name }}</a>. Please take a moment to review your purchase and help inform shoppers just like you.
+</div>
+
 <form ng-submit="handlers.processForm()">
-    <div class="form-field form-field-radio" ng-init="scores = { '1': '★', '2': '★★', '3': '★★★', '4': '★★★★', '5': '★★★★★' }">
-        <span class="score score-{{ score }}" ng-repeat="(score, stars) in scores">
-            <input id="review_score_{{ score }}" name="review_score" type="radio" value="{{ score }}" ng-model="formData.review_score">
-            <label for="review_score_{{ score }}" style="color: #{{ starsColor }};">{{ stars }}</label>
-        </span>
-    </div>
+    <div star-rating rating-value="formData.review_score"></div>
 
     <div class="form-field" ng-if="reviewTitleRequired">
-        <input class="form-input" id="review_title" name="review_title" placeholder="{{ 'REVIEW.TITLE' | translate }}" type="text" ng-model="formData.review_title">
+        <label for="review_title">Review title:</label>
+        <input class="form-input" id="review_title" name="review_title" type="text" ng-model="formData.review_title">
     </div>
 
     <div class="form-field">
-        <textarea class="form-input" id="review_content" name="review_content" placeholder="{{ 'REVIEW.CONTENT' | translate }}" ng-model="formData.review_content"></textarea>
+        <label for="review_content">Review:</label>
+        <textarea class="form-input" id="review_content" name="review_content" ng-model="formData.review_content" rows="6"></textarea>
     </div>
 
     <div class="form-field">

@@ -1127,13 +1127,13 @@
     text-align: left;
     position: relative;
     background: white; }
-    .yotpo .yotpo-thank-you .yotpo-icon-cross,
-    .yotpo .write-review-wrapper .yotpo-icon-cross,
-    .yotpo .write-question-wrapper .yotpo-icon-cross {
+    .yotpo .yotpo-icon-cross {
       position: absolute;
       top: 15px;
       right: 15px;
       font-size: 19px; }
+    .yotpo .error-box .yotpo-icon-cross {
+      position: static; }
     .yotpo .yotpo-thank-you .yotpo-thankyou-header {
       margin-bottom: 20px; }
       .yotpo .yotpo-thank-you .yotpo-thankyou-header span {

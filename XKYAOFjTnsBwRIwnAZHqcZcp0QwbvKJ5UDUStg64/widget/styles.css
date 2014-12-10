@@ -592,6 +592,7 @@
   .yotpo .write-question-button {
     margin-left: 15px; }
   .yotpo .write-review-wrapper {
+    position: relative;
     width: 100%;
     display: none;
     overflow: hidden; }

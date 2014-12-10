@@ -1,43 +1,23 @@
 <div>
     <div class="title">
-        <h1>{{ 'REVIEW.THANK_YOU' | translate }}</h1>
-        <p ng-if="!coupon">{{ 'REVIEW.SHARE' | translate }}</p>
-        <p ng-if="coupon && coupon.action == 'map_review'">{{ 'REVIEW.COUPON.MAIL' | translate }}</p>
-        <p ng-if="coupon && coupon.action == 'map_share'">{{ ('REVIEW.COUPON.SHARE' | translate).replace('{discount}', coupon.discount) }}</p>
-    </div>
+        <h1>Awesome!</h1>
+        <p>We really appriciate your review. Spread a word and share it with your friends.</p>
+    </div>    
 
-    <div class="coupon" ng-if="coupon && coupon.action == 'map_share'">
-        <div class="left"></div>
-        <div class="middle">
-            <div class="discount">
-                <div class="percent" ng-show="!shared">
-                    {{ coupon.discount }}
-                </div>
-                <div class="description" ng-show="!shared">
-                    {{ 'REVIEW.COUPON.DESCRIPTION' | translate }}
-                </div>
-                <div class="thanks-for-sharing" ng-show="shared">
-                    {{ 'REVIEW.COUPON.THANK_YOU' | translate }}
-                </div>
-            </div>
-        </div>
-        <div class="right"></div>
-    </div>
-
-    <ul id="share" class="share {{ coupon && coupon.action == 'map_share' ? 'coupon' : '' }}" ng-init="shareLinks = product.social_network_links" ng-if="product">
+    <ul id="share" class="share" ng-init="shareLinks = product.social_network_links" ng-if="product">
         <li class="facebook" ng-init="handlers.social.common.init('facebook')">
             <a ng-click="handlers.social.facebook.click()"></a>
         </li>
 
         <li class="twitter" ng-init="handlers.social.twitter.init()">
-            <a href="https://twitter.com/share" class="twitter-share-button" data-url="{{ shareLinks.twitter }}" data-text="I just wrote a review on {{ product.name }}" data-lang="en" data-count="none" data-via="yotpo">Tweet</a>
+            <a href="https://twitter.com/share" class="twitter-share-button" data-url="{{ shareLinks.twitter }}" data-text="I just wrote a review on {{ product.name }}" data-lang="en" data-count="none" data-via="yotpo" data-size="large">Tweet</a>
         </li>
 
         <li class="linkedin" ng-click="handlers.social.common.click('linkedin')" ng-init="handlers.social.common.init('linkedin')">
             <script type="IN/Share" data-url="{{ shareLinks.linkedin }}" data-onsuccess="postLinkedIn"></script>
         </li>
 
-        <li class="google" ng-if="!(coupon && coupon.action == 'map_share')" ng-init="handlers.social.common.init('google')">
+        <li class="google" ng-init="handlers.social.common.init('google')">
             <div data-href="{{ shareLinks.google_oauth2 }}" class="g-plus" data-onendinteraction="postGoogle" data-action="share" data-annotation="none"></div>
         </li>
     </ul>

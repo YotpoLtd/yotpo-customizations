@@ -1,35 +1,38 @@
-<div style="text-align: center; font-family: Helvetica; width: 90%; margin: 0 auto;">
-  <p style="margin:0">If this email is not displaying correctly, please <a href="{{email_issue_notice}}" style="text-decoration:underline;color:#2f8ac8" target="_blank">click here</a> to fill out the form.</p>
-  <div class="email-header" style="margin: 0 auto; border-bottom: 1px solid rgb(231, 231, 231); height: 20%;">
-    <img src="//s3.amazonaws.com/yotpo-editor-test/staple-images/staples-home-bar.png" style="width: 100%" alt="Logo" />
+<div style="text-align:center;font-family:Helvetica; width: 90%; margin: 0 auto;">
+  <p style="margin:0">Email not displaying correctly? <a href="{{email_issue_notice}}" style="text-decoration: none;color:#2f8ac8" target="_blank">View it</a> in your browser.</p>
+  <div class="email-header" style="margin: 0 auto; border-bottom: 1px solid rgb(231, 231, 231); height: 15%; min-height: 135px;">
     <div style="padding: 18px;">
-      <img src="//s3.amazonaws.com/yotpo-editor-test/staple-images/staples-icon-1.jpg" alt="Logo" />
+      <img src="//s3.amazonaws.com/yotpo-editor-test/staple-images/staples-email-logo.png" alt="Logo" />
     </div>
   </div>
 
-  <div style="padding-top: 15px; text-align: left; color:#868787; font-size: 20px; font-weight: 100;">
-    QUESTION
+  <div class="title-padding" style="height: 15px; min-height: 15px;">
   </div>
-
-  <div class="email-body" style="width:100%; max-width:650px; margin: 0 auto; height: 70%;">
+  <div class="answer" style="text-align: left; color:#868787; font-size: 20px; font-weight: 100; height: 2%">
+    ANSWER
+  </div>
+  <div class="email-body" style="width:100%; max-width:650px; margin: 0 auto; height: 66%; min-height: 370px;">
     <div style="background: #fff; margin: 0 auto; width: 84%;">
       <div style="text-align: center; font-size: 14px; margin-bottom: 25px;">
         <span style="color: #1a1a1a; font-size: 52px; text-transform: capitalize; font-weight: 300;">
-          Hi {{user}}.
+          Can you help?
         </span>
       </div>
       <div style="margin-bottom: 35px; color: #1a1a1a; font-size: 18px;">
-        <p>You've reviewed the <span style="color: #6bb3e5;">{{product}}</span> and a fellow shopper has a question. What do you think?</p>
+        <p>You reviewed the <span style="color: #6bb3e5;">{{product}}</span> and a fellow shopper has a question. What do you think?</p>
       </div>
       <div>
         {{answer_form}}
       </div>
     </div>
   </div>
-  <div class="footer-border" style="height: 20%; border-top: 1px solid rgb(231, 231, 231); margin: 15px auto; text-align: center; padding-top: 15px; font-size: 10px;">
-    <div class="copyright">Copyright 1996-2014 Staples Inc. 500 Staples Drive, Framingham, MA 01702, All rights reserved.</div>
-    <div class="unsubscribe">To unsubscribe click <a href="{{unsubscribe_url}}">Here</a></div>
-    <div class="privacy-policy"><a href="http://www.staples.com/sbd/content/help-center/policies-and-legal.html#us_privacy_policy?template&om_rid=lori.arnold@staples.com&cid=EM:CustomerReview_1&cm_lm=lori.arnold@staples.com">Privacy Policy</a> , <a href="http://www.staples.com/sbd/content/help-center/contact-us.html?om_rid=lori.arnold@staples.com&cid=EM:MAP::CONTACT&cm_lm=lori.arnold@staples.com">Contact Us</a>
+  <div class="footer-border" style="height: 15%; min-height: 100px; border-top: 1px solid rgb(231, 231, 231); margin: 0 auto; margin-top: 15px; text-align: center; font-size: 10px; background-color: #ededed;">
+    <div class="unsubscribe" style="margin-top: 15px; font-size: 12px;"><a style="text-decoration: none; color: #6bb3e5;" href="{{unsubscribe_url}}">Unsubscribe</a> from review emails.</div>
+    <div class="privacy-policy" style="margin-top: 15px; font-size: 12px;">
+      <a style="text-decoration: none; color: #6bb3e5;" href="http://www.staples.com/sbd/content/help-center/policies-and-legal.html#10008_2">Privacy Policy.</a>
+      <div class="space" style="display: inline-block; width: 30px;"></div>
+      <a style="text-decoration: none; color: #6bb3e5;" href="http://www.staples.com/sbd/content/help-center/contact-us.html?om_rid=lori.arnold@staples.com&cid=EM:MAP::CONTACT&cm_lm=lori.arnold@staples.com">Contact Us</a>
     </div>
+    <div class="copyright" style="margin-top: 15px; font-size: 12px;">Staples, Inc., 500 Staples Drive, Framingham, MA 01702</div>
   </div>
 </div>

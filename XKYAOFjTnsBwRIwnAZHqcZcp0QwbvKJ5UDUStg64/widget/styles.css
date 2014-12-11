@@ -6,13 +6,19 @@
   direction: LTR;
   clear: both;
   text-align: left; }
+  .yotpo div {
+    float:none;
+    }
+
   .yotpo div, .yotpo span, .yotpo p, .yotpo a, .yotpo img, .yotpo i, .yotpo strong, .yotpo sup, .yotpo ul, .yotpo li, .yotpo form, .yotpo label {
     font-family: "Helvetica Neue Thi", "Verdana";
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     font-style: normal !important;
+    float: none;/* General elements rules to override general rules in client sites */
     font-size: 14px;
     line-height: 17px;
+    float: none;
     color: #737373;
     border: none;
     padding: 0;
@@ -922,7 +928,7 @@
       color: #737373; }
   .yotpo.yotpo-main-widget {
     display: block;
-    width: 100%;
+    width: 688px;
     margin: 0 auto;
     background-color: transparent !important; }
     .yotpo.yotpo-main-widget .yotpo-bottomline {

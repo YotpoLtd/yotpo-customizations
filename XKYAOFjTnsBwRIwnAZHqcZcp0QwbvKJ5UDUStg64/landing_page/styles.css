@@ -130,7 +130,7 @@ body {
 /* Buttons */
 .content .form .form-field input[type=submit],
 a.button {
-  padding: 10px;
+  padding: 12px 24px;
   color: white;
   background-color: #cd0303;
   background-image: none;
@@ -141,6 +141,7 @@ a.button {
   border-radius: 0;
   text-transform: uppercase;
   cursor: pointer;
+  font-size: 13px;
 }
 
 .buttons {
@@ -162,7 +163,7 @@ a.button {
   font-family: inherit;
 }
 .content .description a {
-  color: #1E90FF;
+  color: #44afe4;
 }
 
 /* Section */
@@ -248,9 +249,9 @@ a.button {
 }
 .content .form .error .close {
   position: absolute;
-  top: 5px;
-  right: 5px;
-  font-size: 1em;
+  top: 1px;
+  right: 10px;
+  font-size: 1.3em;
   cursor: pointer;
 }
 

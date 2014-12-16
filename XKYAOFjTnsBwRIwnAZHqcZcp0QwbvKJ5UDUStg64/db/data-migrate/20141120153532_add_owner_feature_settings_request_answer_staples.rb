@@ -1,5 +1,5 @@
 feature_id = Feature.find_by_name(:map_html_editor.to_s.camelcase).id 
-FeatureSetting.create({ :feature_id => feature_id, :level => 0, :key => "request_answer_html_editor", :value => '', :access_level => 1, :serialized => false }, :without_protection => true )
+FeatureSetting.create({ :feature_id => feature_id, :level => 0, :key => "request_answer_html_editor", :value => '', :access_level => 1, :serialized => true }, :without_protection => true )
 
 fs = { :styles => 
       { 

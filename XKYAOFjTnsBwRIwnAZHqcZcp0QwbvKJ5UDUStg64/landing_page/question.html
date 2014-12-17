@@ -1,4 +1,12 @@
-<div class="title" style="color: #{{ fontColor }};">
-    <h1>{{ ('QUESTION.THANK_YOU' | translate).replace('%{posted_object}', 'question') }}</h1>
+<div class="item">
+  <div class="title">
+    <h1>Awesome!</h1>
+    <p>Your email has been confirmed and your question has been submitted.</p>
+  </div>
+
+  <div class="buttons">
+    <a onclick="window.open('http://www.staples.com/','_blank'); return false;" class="button gray">Continue Shopping</a>
+  </div>
 </div>
+
 <div class="affiliations" ng-include="templatePath + '/partials/affiliations.html'" ng-if="affiliations"></div>

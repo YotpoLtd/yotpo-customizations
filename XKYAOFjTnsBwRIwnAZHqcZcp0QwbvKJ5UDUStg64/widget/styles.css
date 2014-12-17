@@ -707,7 +707,7 @@
         .yotpo .yotpo-review .yotpo-header .yotpo-header-element .y-label.yotpo-user-name, .yotpo .yotpo-comment .yotpo-header .yotpo-header-element .y-label.yotpo-user-name, .yotpo .yotpo-question .yotpo-header .yotpo-header-element .y-label.yotpo-user-name {
           color: #d63334; }
         .yotpo .yotpo-review .yotpo-header .yotpo-header-element .y-label.yotpo-user-name {
-          margin-right: 20px; }
+          margin-right: 10px; }
         .yotpo .yotpo-review .yotpo-header .yotpo-header-element .y-label.yotpo-review-date, .yotpo .yotpo-comment .yotpo-header .yotpo-header-element .y-label.yotpo-review-date, .yotpo .yotpo-question .yotpo-header .yotpo-header-element .y-label.yotpo-review-date {
           float: left; }
     .yotpo .yotpo-review .yotpo-header .yotpo-icon-profile, .yotpo .yotpo-comment .yotpo-header .yotpo-icon-profile, .yotpo .yotpo-question .yotpo-header .yotpo-icon-profile {
@@ -1178,6 +1178,7 @@
     .yotpo .yotpo-thank-you .yotpo-thankyou-header {
       margin-bottom: 20px; }
       .yotpo .yotpo-thank-you .yotpo-thankyou-header span {
+        font-family: "HelveticaNeueLTStd-Light", "Verdana";
         color: #1a1a1a;
         font-size: 32px; }
       .yotpo .yotpo-thank-you .yotpo-thankyou-header .yotpo-icon {

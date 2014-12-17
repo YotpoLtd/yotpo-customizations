@@ -11,7 +11,7 @@
     }
 
   .yotpo div, .yotpo span, .yotpo p, .yotpo a, .yotpo img, .yotpo i, .yotpo strong, .yotpo sup, .yotpo ul, .yotpo li, .yotpo form, .yotpo label {
-    font-family: "Helvetica Neue Thi", "Verdana";
+    font-family: "helveticaneueltstd-roman", "Verdana";
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     font-style: normal !important;
@@ -312,7 +312,7 @@
     display: inline-block;
     text-overflow: ellipsis;
     border: none;
-    font-family: "Helvetica Neue Thi", "Verdana";
+    font-family: "helveticaneueltstd-roman", "Verdana";
     text-transform: uppercase;
     text-align: center;
     font-size: 12px;
@@ -408,7 +408,7 @@
     font-weight: normal;
     float: none; }
   .yotpo .y-input {
-    font-family: "Helvetica Neue Thi", "Verdana";
+    font-family: "helveticaneueltstd-roman", "Verdana";
     height: 32px;
     min-width: 148px;
     width: 100%;
@@ -420,7 +420,7 @@
     -moz-box-sizing: border-box;
     box-sizing: border-box; }
   .yotpo .text-box {
-    font-family: "Helvetica Neue Thi", "Verdana";
+    font-family: "helveticaneueltstd-roman", "Verdana";
     font-size: 13px;
     height: 68px;
     min-width: 148px;
@@ -468,7 +468,7 @@
     padding: 12px 10px 5px; }
   .yotpo .yotpo-nav {
     background: transparent;
-    font-family: "Helvetica Neue Thi", "Verdana";
+    font-family: "helveticaneueltstd-roman", "Verdana";
     border-color: rgba(0, 39, 59, 0.08);
     display: block;
     position: relative;
@@ -514,7 +514,7 @@
       /*text-transform: uppercase;*/
       padding-right: 18px;
       font-size: 15px;
-      font-family: "Helvetica Neue Thi", "Verdana";
+      font-family: "helveticaneueltstd-roman", "Verdana";
       display: list-item; }
       .yotpo .yotpo-nav li .yotpo-nav-wrapper {
         padding-bottom: 6px;
@@ -677,8 +677,7 @@
     float: right;
     margin-top: 15px !important; }
   .yotpo .write-review .yotpo-toa {
-    position: absolute;
-    right: 80px; }
+    padding-left: 0; }
   .yotpo .write-review .yotpo-preloader-wrapper {
     float: right;
     width: 88px;
@@ -1088,6 +1087,9 @@
     float: left;
     margin-top: 15px;
     color: #737373; }
+  .yotpo.yotpo-main-widget .yotpo-label .yotpo-logo-title a, .yotpo .yotpo-modal-dialog .yotpo-label .yotpo-logo-title a {
+    color: #737373 !important;
+  }
   .yotpo.yotpo-main-widget .yotpo-label .yotpo-icon, .yotpo .yotpo-modal-dialog .yotpo-label .yotpo-icon {
     color: #21679A; }
   .yotpo.yotpo-main-widget .yotpo-label .yotpo-icon-btn-big, .yotpo .yotpo-modal-dialog .yotpo-label .yotpo-icon-btn-big {
@@ -2113,3 +2115,7 @@ div.yotpo-preloader-wrapper {
 .yotpo.bottomLine #embedded_widget .yotpo-icon {
   width: 17px !important;
   height: 17px !important; }
+
+.yotpo-main-widget > .yotpo-display-wrapper > .yotpo-label.yotpo-small-box:first-child {
+  padding-top: 0;
+}

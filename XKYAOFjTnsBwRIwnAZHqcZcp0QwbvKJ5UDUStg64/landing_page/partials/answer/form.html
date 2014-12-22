@@ -13,7 +13,7 @@
     <p class="date">{{ question.created_at | date: 'MM/dd/yyyy' }}<p>
 </div>
 
-<form ng-submit="handlers.processForm()" ng-init="errorHidden = {}">
+<form ng-init="errorHidden = {}">
     <div class="form-field">
         <label for="content">Write your answer here:</label>
         <textarea class="form-input" id="content" name="content" ng-model="formData.content" rows="6"></textarea>
@@ -25,6 +25,6 @@
     </div>
 
     <div class="form-field">
-        <input name="commit" type="submit" value="{{ 'SUBMIT' | translate }}" ng-click="errorHidden = {}">
+        <input name="commit" type="submit" value="{{ 'SUBMIT' | translate }}" ng-click="(errorHidden = {}) && handlers.processForm()">
     </div>
 </form>

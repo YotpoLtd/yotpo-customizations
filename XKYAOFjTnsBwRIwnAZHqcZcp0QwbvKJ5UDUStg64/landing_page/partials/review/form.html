@@ -8,7 +8,7 @@
     You recently purchased a <a href="{{ product.product_url }}">{{ product.name }}</a>. Please take a moment to review your purchase and help inform shoppers just like you.
 </div>
 
-<form ng-submit="handlers.processForm()" ng-init="errorHidden = {}">
+<form ng-init="errorHidden = {}">
     <div star-rating rating-value="formData.review_score" star-color="starsColor"></div>
 
     <div class="error score" ng-show="!outlook && (missedFields.indexOf('score') != -1) && !errorHidden.score">
@@ -37,7 +37,7 @@
     </div>
 
     <div class="form-field">
-        <input name="commit" type="submit" value="{{ 'SUBMIT' | translate }}" ng-click="errorHidden = {}; return true;">
+        <input name="commit" type="submit" value="{{ 'SUBMIT' | translate }}" ng-click="(errorHidden = {}) && handlers.processForm()">
     </div>
 </form>
 

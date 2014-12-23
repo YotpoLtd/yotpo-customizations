@@ -291,7 +291,7 @@ a.button {
 }
 
 /* Mobile devices */
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 720px) {
   /* Main */
   .main {
     width: 100%;

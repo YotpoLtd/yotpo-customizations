@@ -1,46 +1,124 @@
-<div style="text-align:center;font-family:Arial; width: 90%; margin: 0 auto;">
-  <p style="margin:0">Email not displaying correctly? <a href="{{link_email_display}}" style="text-decoration: none; color: #6bb3e5;" target="_blank">View it</a> in your browser.</p>
-  <div class="email-header" style="margin: 0 auto; border-bottom: 1px solid rgb(231, 231, 231); height: 15%; min-height: 135px;">
-    <div style="padding: 18px;">
-      <img src="//s3.amazonaws.com/yotpo-editor-test/staple-images/staples-email-logo.png" alt="Logo" />
-    </div>
-  </div>
+<table width="90%" style="text-align:center; font-family:Arial; margin: 0 auto;">
+  <tr>
+    <td>
+      <p style="margin:0">Email not displaying correctly? <a href="{{link_email_display}}" style="text-decoration: none; color: #6bb3e5;" target="_blank">View it</a> in your browser.</p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <table width='100%' style="text-align: center; border-bottom: 1px solid rgb(231, 231, 231); height: 140px;">
+        <tr>
+          <td>
+            <div style="padding: 18px;">
+              <img src="//s3.amazonaws.com/yotpo-editor-test/staple-images/staples-email-logo.png" alt="Logo" />
+            </div>
+          </td>
+        </tr>
+        <tr style="height: 15px;"></tr>
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <table width='100%' style="text-align: left; color:#868787; font-size: 20px; font-weight: 100;">
+        <tr>
+          <td>
+            <div>REVIEW</div>
+          </td>
+        </tr>
+        <tr style="height: 10px;"></tr>
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <table width='650px' style="text-align:center; font-size:14px; margin: 0 auto;">
+        <tr>
+          <td>
+            <span style="color: #1a1a1a; font-size: 52px; text-transform: capitalize; font-weight: 300;">
+              What did you think?
+            </span>
+          </td>
+        </tr>
+        <tr style="height: 25px;"></tr>
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <table width='650px' style="margin: 0 auto; color: #1a1a1a; font-size: 18px; text-align: center;">
+        <tr>
+          <td>
+            <span>You recently purchased a {{product_name}}. Please take a moment to review your purchase and help inform shoppers just like you.</span>
+          </td>
+        </tr>
+        <tr style="height: 35px;"></tr>
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <table width='650px' style="margin: 0 auto; text-align: center;">
+        <tr>
+          <td>
+            {{form}}
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <table width='650px' style="font-size: 18px; margin:0 auto; width: 90%;">
+        <tr style="height: 20px;"></tr>
+        <tr>
+          <td style="text-align: center;">
+            Too soon? If you have not received the product yet please visit our <a style="text-decoration: none; color: #6bb3e5;" href="{{link_didnt_get_product_yet}}">Help Center.</a>
+          </td>
+        </tr>
+        <tr style="height: 30px;"></tr>
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <table width='100%' style="margin: 0 auto; text-align: center; border-top: 1px solid rgb(231, 231, 231);">
+        <tr>
+          <td>
+            {{promoted_products}}
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr style="height: 15px;"></tr>
+  <tr>
+    <td>
+      <table width='100%' style="border-top: 1px solid rgb(231, 231, 231); margin: 0 auto; text-align: center; font-size: 10px; background-color: #ededed;">
+        <tr style="height: 15px;"></tr>
+        <tr>
+          <td style="font-size: 12px;">
+            This email is being sent to you because you recetnly made a purchase at Staples. <a style="text-decoration: none;  color: #6bb3e5;" href="{{unsubscribe_url}}">Unsubscribe</a> from review emails.
+          </td>
+        </tr>
+        <tr style="height: 15px;"></tr>
+        <tr>
+          <td style="font-size: 12px;">
+            <a style="text-decoration: none; color: #6bb3e5;" href="http://www.staples.com/sbd/content/help-center/policies-and-legal.html#10008_2">Privacy Policy.</a>
+            <div class="space" style="display: inline-block; width: 30px;"></div>
+            <a style="text-decoration: none; color: #6bb3e5;" href="http://www.staples.com/sbd/content/help-center/contact-us.html?om_rid=lori.arnold@staples.com&cid=EM:MAP::CONTACT&cm_lm=lori.arnold@staples.com">Contact Us</a>
+          </td>
+        </tr>
+        <tr style="height: 15px;"></tr>
+        <tr>
+          <td style="font-size: 12px;">
+            Staples, Inc., 500 Staples Drive, Framingham, MA 01702
+          </td>
+        </tr>
+        <tr style="height: 15px;"></tr>
+      </table>
+    </td>
+  </tr>
+</table>
 
-  <div class="title-padding" style="height: 15px; min-height: 15px;">
-  </div>
-  <div class="answer" style="text-align: left; color:#868787; font-size: 20px; font-weight: 100; height: 2%">REVIEW</div>
 
-  <div class="email-body" style="width:100%; max-width:650px; margin: 0 auto; height: 66%; min-height: 370px;">
-
-    <div style="text-align:center; font-size:14px; margin-bottom: 25px;">
-      <span style="color: #1a1a1a; font-size: 52px; text-transform: capitalize; font-weight: 300;">
-        What did you think?
-      </span>
-    </div>
-    <div style="margin-bottom: 35px; color: #1a1a1a; font-size: 18px;">
-      <span>You recently purchased a {{product_name}}. Please take a moment to review your purchase and help inform shoppers just like you.</span>
-    </div>
-      
-    {{form}}  
-          
-    
-    <div style="font-size: 18px; margin:0 auto; width: 90%; margin-top: 20px; margin-bottom: 30px;">
-      Too soon? If you have not received the product yet please visit our <a style="text-decoration: none; color: #6bb3e5;" href="{{link_didnt_get_product_yet}}">Help Center.</a>
-    </div>
-    
-  </div>
-  <div style="width: 90%; margin: 0 auto; border-top: 1px solid rgb(231, 231, 231);">
-        {{promoted_products}}
-  </div>
-  
-  <div class="footer-border" style="height: 15%; min-height: 100px; border-top: 1px solid rgb(231, 231, 231); margin: 0 auto; margin-top: 15px; text-align: center; font-size: 10px; background-color: #ededed;">
-    <div class="unsubscribe" style="margin-top: 15px; font-size: 12px;">
-      This email is being sent to you because you recetnly made a purchase at Staples. <a style="text-decoration: none;  color: #6bb3e5;" href="{{unsubscribe_url}}">Unsubscribe</a> from review emails.</div>
-    <div class="privacy-policy" style="margin-top: 15px; font-size: 12px;">
-      <a style="text-decoration: none; color: #6bb3e5;" href="http://www.staples.com/sbd/content/help-center/policies-and-legal.html#10008_2">Privacy Policy.</a>
-      <div class="space" style="display: inline-block; width: 30px;"></div>
-      <a style="text-decoration: none; color: #6bb3e5;" href="http://www.staples.com/sbd/content/help-center/contact-us.html?om_rid=lori.arnold@staples.com&cid=EM:MAP::CONTACT&cm_lm=lori.arnold@staples.com">Contact Us</a>
-    </div>
-    <div class="copyright" style="margin-top: 15px; font-size: 12px;">Staples, Inc., 500 Staples Drive, Framingham, MA 01702</div>
-  </div>
-</div>

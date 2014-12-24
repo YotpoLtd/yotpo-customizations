@@ -1,0 +1,29 @@
+<div>
+    <div class="title">
+        <h1>Awesome!</h1>
+        <p>We really appriciate your review. Spread a word and share it with your friends.</p>
+    </div>
+
+    <ul id="share" class="share" ng-init="shareLinks = product.social_network_links" ng-if="product">
+        <li class="facebook" ng-init="handlers.social.common.init('facebook')">
+          <a ng-click="handlers.social.facebook.click()"></a>
+        </li>
+
+        <li class="twitter">
+          <a target="_blank" href="https://twitter.com/intent/tweet?url={{ shareLinks.twitter }}&text=I just wrote a review on {{ product.name }}&via=yotpo"></a>
+        </li>
+
+        <li class="linkedin">
+          <a target="_blank" href="https://www.linkedin.com/shareArticle?url={{ shareLinks.linkedin }}&title={{ item.title }}&summary={{ item.content }}&source=Yotpo&mini=true"></a>
+        </li>
+
+        <li class="google">
+          <a target="_blank" href="https://plus.google.com/share?url={{ shareLinks.google_oauth2 }}"></a>
+        </li>
+    </ul>
+
+    <div class="buttons">
+        <a onclick="window.open('http://www.staples.ca/office/supplies/StaplesOrderHistoryList','_blank'); return false;" class="button">Review Previous Purchases</a>
+        <a onclick="window.open('http://www.staples.ca/','_blank'); return false;" class="button gray">Continue Shopping</a>
+    </div>
+</div>

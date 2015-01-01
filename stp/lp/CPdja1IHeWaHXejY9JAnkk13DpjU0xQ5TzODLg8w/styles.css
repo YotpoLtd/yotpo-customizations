@@ -10,7 +10,7 @@
 /** Layout **/
 body {
   background-color: white;
-  font-family: 'HelveticaNeueLTStd', 'Verdana';
+  font-family: 'Arial', 'Verdana';
 }
 
 .bold {
@@ -87,6 +87,7 @@ body {
   text-transform: none;
 }
 .content .title h1 {
+  font-family: 'HelveticaNeueLTStd', 'Arial';
   font-size: 40px;
   line-height: 40px;
 }

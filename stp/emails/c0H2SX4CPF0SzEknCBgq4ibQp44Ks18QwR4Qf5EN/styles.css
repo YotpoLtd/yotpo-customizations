@@ -1135,6 +1135,10 @@
     font-size: 17.5px; }
   .yotpo .yotpo-modal-bottom-line .yotpo-bottomline {
     padding-top: 10px; }
+  .yotpo.yotpo-main-widget .yotpo-bottomline .yotpo-stars-and-sum-reviews {
+    float:left;
+    text-align: left;
+  }
   .yotpo .yotpo-modal-bottom-line .write-review-btn-hidden {
     display: none; }
   .yotpo .yotpo-pager {

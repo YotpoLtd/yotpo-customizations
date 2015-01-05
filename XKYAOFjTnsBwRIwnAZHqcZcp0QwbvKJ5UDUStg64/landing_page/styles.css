@@ -10,11 +10,15 @@
 /** Layout **/
 body {
   background-color: white;
-  font-family: 'HelveticaNeueLTStd', 'Verdana';
+  font-family: 'Arial';
+}
+
+h1,
+h2 {
+  font-family: 'HelveticaNeueLTStd';
 }
 
 .bold {
-  font-family: 'Verdana';
   font-weight: 700;
 }
 

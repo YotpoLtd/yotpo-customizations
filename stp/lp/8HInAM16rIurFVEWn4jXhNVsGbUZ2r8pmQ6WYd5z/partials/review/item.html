@@ -9,18 +9,16 @@
           <a ng-click="handlers.social.facebook.click()"></a>
         </li>
 
-
         <li class="twitter">
-            <a  ng-click="utils.openPopup('https://twitter.com/intent/tweet?url={{ shareLinks.twitter }}&text=I just wrote a review on {{ product.name }}&via=yotpo','twitter-share',$event)">
-         </li>
-
+          <a target="_blank" href="https://twitter.com/intent/tweet?url={{ shareLinks.twitter }}&text=I just wrote a review on {{ product.name }}&via=yotpo"></a>
+        </li>
 
         <li class="linkedin">
-          <a ng-click="utils.openPopup('https://www.linkedin.com/shareArticle?url={{ shareLinks.linkedin }}&title={{ item.title }}&summary={{ item.content }}&source=Yotpo&mini=true','linkedin-share',$event)"></a>
+          <a target="_blank" href="https://www.linkedin.com/shareArticle?url={{ shareLinks.linkedin }}&title={{ item.title }}&summary={{ item.content }}&source=Yotpo&mini=true"></a>
         </li>
 
         <li class="google">
-          <a ng-click="utils.openPopup('https://plus.google.com/share?url={{ shareLinks.google_oauth2 }}','google-share',$event)"></a>
+          <a target="_blank" href="https://plus.google.com/share?url={{ shareLinks.google_oauth2 }}"></a>
         </li>
     </ul>
 

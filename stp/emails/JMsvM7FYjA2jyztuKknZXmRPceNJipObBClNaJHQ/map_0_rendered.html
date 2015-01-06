@@ -1,0 +1,31 @@
+<div style="text-align:center;font-family:Verdana, Arial;">
+    <div style="width:100%;max-width:600px;border:1px solid #c8c8c8;background:#fff;margin:20px auto">
+        <div style="border-bottom:1px solid #c8c8c8;padding:.5em 1.5em;font-size:10px">
+            If this email is not displaying correctly, please <a href='{{link_email_display}}' style='color:inherit;'>Click here</a> to fill out the form.
+        </div>
+
+        <div style="padding: 18px;">
+            <img src="//s3.amazonaws.com/yotpo-images-production/images/store_def_logo.png" alt="Logo" />
+        </div>
+
+        <div style="text-align:center;font-size:14px;border-bottom:1px solid #c8c8c8;padding-bottom:18px;margin-bottom:18px">
+            Hello {{user}},<br />You've recently bought {{product_name}}, what do you think about it?
+        </div>
+
+        {{form}}
+
+        <!-- if feature enabled -->
+            {{promoted_products}}
+        <!-- end -->
+
+        <div style="border-top:1px solid #c8c8c8;border-bottom:1px solid #c8c8c8;padding:.5em;font-size:10px">
+            Too soon? If you have not received the product yet <a href='{{link_didnt_get_product_yet}}' style='color:inherit;'>Click Here!</a>
+        </div>
+
+        <div style="padding:.5em;font-size:12px">
+            We really appreciate your feedback and hope to see you again soon.<br />
+            Thank you from <a href="{{store_link}}">{{store_name}}</a>
+        </div>
+    </div>
+    {{footer}}
+</div>

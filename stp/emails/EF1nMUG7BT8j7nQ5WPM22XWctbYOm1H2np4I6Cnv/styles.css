@@ -1223,7 +1223,7 @@
       background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACEAAAAhCAYAAABX5MJvAAACGklEQVRYw8WX2ytEQRzHD3lU5FJShOSSVYryDygPEk+25IlskSISQomy2hShFFHUPih5l8QDKTzJUvtkPVDuKffrdzJT03TmXPbM2lOfl9nf/Oazc+b8ZkbTbDwejycbtAI/OAQhcAfOwD5Y9vw9GZrKBwljQDXYBt/gxwJfYANUqhBwgR2LA8vYBPnhCjSDF4cCjCdQb1dgVNHgIn1WBYYjJMDoNBOoMVh834okyKKtkAmkgludThegHMSCBvCpQOQSJOpJzEk6tAlxK4pmZFIUyAIfkmC3EDujSOIZpPGJfQbBpBIm0LgC8KBwkQ7wEucmwddgS2HdYJwygSKTwFu6TzCeaXuIawvQtiCd1R6wAO4tiGQSiUaTIL+wJo5oewvXVgymQZwQm0Jfp1H+OhI4pkAinmx0kk8/x2DRE/o1Om2OJLjdtgyU6IhsGeSf0ujZQIXEPNenW/ht1iD/LAlYVPA6kmg5Zn1OhD5es5nwKZBwCX3ubEgMkoAmRV8H3+fBhkSdXoL/lshiq/oiShJBPmg8ShJDfFCuQUGJlMQbSBcLypJEIkCrKuOKtq9zbWLBexX67OnkndErr2kWNxwVkD+SLDviuf9BgJxVq8wOu94IS/RavfZNREhgxO4FqAO8KxqcnMiaw70KltKTkxOBXfIJO70Ux9IFexDG4LWyw44ToULQBdbAMbgBj/QgTIrYKmgHeXby/gLmbldzLvL71gAAAABJRU5ErkJggg==) !important; 
   background-repeat: no-repeat!important;}
 
-    .yotpo .yotpo-thank-you .yotpo-thankyou-footer .social-link[data-network=googleplus] {
+    .yotpo .yotpo-thank-you .yotpo-thankyou-footer .social-link[data-network=google] {
       background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACEAAAAhCAYAAABX5MJvAAACyElEQVRYw73XS6iVVRTA8SNmSmhdfASJRlAjQ0VFNJUGichNLSgDFRMV+YEDJ1cQRTCigc1SbJI4aFChJYIoljgobGJI5QNBg+tbM99eUS++J+uL09f5Xufc6wcLvrP3Wmv/z/r2XmvtWq3Cg5exDN/gD1zDQ9zF3/gFG9COfrWefDAe23EfT0rKP/gMQ1pdfDC+xuMKi6flBpajTzMAk3CmhcXTshttVQDacacHARI5hGFlAN7BvV4ASOQIXsoDGIkrvQiQyA95ED89A4BEFjUCeK+E4T1swTy8jQkp+Sqlvx5/Zvi6hEFpiN8LAM5hFN7HcfyMUWE7BpsicdXbvIpvc3yuqgeYWiIK7XgRt+rGzmNg+NgbYw9wPWQENsd7VwOfp//NH/iyAOAy+mTAdoSPj+L3rxn7bVqG72mJwokCiKOhN7rB3I6Ym1K3bzpDhuOLeL+Q4fvTJDUXfYouPBfROJua2xcQyxvYFe2JJ/ixhsklj9SSWOxddNeNr8Gw+L5pm9X4rcDvqRpmlYS4g/kRjbH4HB2x+Y61kC+6alhQ0eh0lPWhEZmtrSauKpFIy4CA+BiPWoC4lZTsKkb3cQpz647fB9FdNQNxsoa2kso7osK+iZWxJ1ZgeF3CawZkT/JPjhcorg29lZER0xt2dsyvbgJiXQKxMS9c6ItxOW3eFfTH601ATEkg3spR2hY6iwucvYahFQE6/9N74mCG4v6YfyOn276IfphTEaIjXWCyjupjzAidebjZIG9Mjaz5VwWAi0kFToPsyjDoxiex0EDMxFxMxPP4MPZOlSjMz2rvXolLS5bhQxzGzjiy+zP6hCL5rsx9ozfa/UQO4IUybf8M3O4FgINJzSl7AZrQxHfOk+//19iWBGmLDrqVAnUVS3viVj46OqTuCotfwLrc21YLt/SF0UEfiLN+M7rpzui412M6+pb1+xTy9PalsSPlzgAAAABJRU5ErkJggg==) !important; 
   background-repeat: no-repeat!important;}
 
@@ -1306,9 +1306,6 @@
   .yotpo .write-only .write-review-wrapper,
   .yotpo .write-only .write-question-wrapper {
     display: block; }
-  .yotpo .write-only .yotpo-thank-you[data-type=share] .yotpo-thankyou-content,
-  .yotpo .write-only .yotpo-thank-you[data-type=share] .yotpo-thankyou-footer {
-    display: none; }
 
 #yotpo-testimonials-custom-tab .yotpo-testimonials-btn {
   display: none; }

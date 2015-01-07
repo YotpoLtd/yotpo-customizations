@@ -10,15 +10,15 @@
         </li>
 
         <li class="twitter">
-          <a target="_blank" href="https://twitter.com/intent/tweet?url={{ shareLinks.twitter }}&text=I just wrote a review on {{ product.name }}&via=yotpo"></a>
+          <a  ng-click="utils.openPopup('https://twitter.com/intent/tweet?url={{ shareLinks.twitter }}&text=I just wrote a review on {{ product.name }}&via=yotpo','twitter-share',$event)"></a>
         </li>
 
         <li class="linkedin">
-          <a target="_blank" href="https://www.linkedin.com/shareArticle?url={{ shareLinks.linkedin }}&title={{ item.title }}&summary={{ item.content }}&source=Yotpo&mini=true"></a>
+          <a ng-click="utils.openPopup('https://www.linkedin.com/shareArticle?url={{ shareLinks.linkedin }}&title={{ item.title }}&summary={{ item.content }}&source=Yotpo&mini=true','linkedin-share',$event)"></a>
         </li>
 
         <li class="google">
-          <a target="_blank" href="https://plus.google.com/share?url={{ shareLinks.google_oauth2 }}"></a>
+          <a ng-click="utils.openPopup('https://plus.google.com/share?url={{ shareLinks.google_oauth2 }}','google-share',$event)"></a>
         </li>
     </ul>
 

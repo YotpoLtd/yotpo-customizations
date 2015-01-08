@@ -18,7 +18,7 @@
         <label for="content">Votre réponse ici :</label>
         <textarea class="form-input" id="content" name="content" ng-model="formData.content" rows="6"></textarea>
 
-        <div class="error" ng-show="!outlook && (missedFields.indexOf('content') != -1) && !errorHidden.content">
+        <div class="error" ng-show="!cleanForm && (missedFields.indexOf('content') != -1) && !errorHidden.content">
           <div class="message">Ce champ doit être rempli. Veuillez saisir les renseignements.</div>
           <span class="close" ng-click="errorHidden.content = true">x</span>
         </div>

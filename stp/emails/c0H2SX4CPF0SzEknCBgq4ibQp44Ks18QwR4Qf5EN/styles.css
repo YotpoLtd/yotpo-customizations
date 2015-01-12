@@ -956,7 +956,7 @@
       /* Star Distribution */ }
       .yotpo.yotpo-main-widget .yotpo-bottomline {
         position: relative;
-        padding-bottom: 55px; }
+        padding-bottom: 10px; }
         .yotpo.yotpo-main-widget .yotpo-bottomline.yotpo-bottomline-ditribution-version {
           padding-bottom: inherit; }
         .yotpo.yotpo-main-widget .yotpo-bottomline .yotpo-default-button {
@@ -1230,9 +1230,10 @@
     .yotpo .yotpo-thank-you .yotpo-thankyou-footer .social-link > * {
       display: none; }
   .yotpo .yotpo-first-review {
-    margin-top: 50px;
+    margin-top: 20px;
     position: relative; }
     .yotpo .yotpo-first-review .yotpo-first-review-stars {
+      display: none !important;
       margin-bottom: 20px;
       text-align: center;
       margin-top: 20px; }
@@ -1240,6 +1241,7 @@
         color: #dd3337;
         font-size: 22px; }
     .yotpo .yotpo-first-review .yotpo-first-review-content {
+      float: left;
       text-align: center; }
       .yotpo .yotpo-first-review .yotpo-first-review-content span {
         display: block;

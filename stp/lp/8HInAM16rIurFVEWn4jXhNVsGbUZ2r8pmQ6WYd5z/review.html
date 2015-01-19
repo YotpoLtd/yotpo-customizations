@@ -1,15 +1,17 @@
 
 <div class="form" style="color: #{{ fontColor }};" ng-include="templatePath + '/partials/review/form.html'" ng-if="!item && missedFields && error!='duplicateReview'"></div>
 
-<div class="item" style="color: #{{ fontColor }};" ng-include="templatePath + '/partials/review/item.html'" ng-if="item && !error"></div>
+
 
 <div class="error title" style="color: #{{ fontColor }};" ng-switch on="error">
     <div ng-switch-when="general">
       <h1> Oops! Something went wrong, and your review hasn't been posted yet.</h1>
       <p>We'd really love to hear from you -- please try posting again in 10 minutes.</p>
     </div>
-    <h1 ng-switch-when="duplicateReview" style="font-size: 22px; margin-top: 20px; color: rgb(249,16,16);">Your review has already been submitted.</h1>
+    <div ng-switch-when="duplicateReview" class="duplicate-review-error">Your review has already been submitted.</div>
 </div>
+
+<div class="item" style="color: #{{ fontColor }};" ng-include="templatePath + '/partials/review/item.html'" "></div>
 
 <div class="affiliations" ng-include="templatePath + '/partials/affiliations.html'" ng-if="affiliations"></div>
 

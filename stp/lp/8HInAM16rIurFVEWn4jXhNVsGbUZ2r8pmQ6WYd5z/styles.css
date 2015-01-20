@@ -265,6 +265,9 @@ a.button {
 }
 
 /* Affiliations */
+.content .affiliations .products .product {
+  margin-right: 100px;
+}
 .content .affiliations .products .product .stars {
   border-top: none;
   margin: 0;

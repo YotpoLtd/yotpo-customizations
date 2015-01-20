@@ -8,15 +8,12 @@
 }
 
 /** Layout **/
-body {
+body, h1, h2 {
   background-color: white;
   font-family: 'Arial';
 }
 
-h1,
-h2 {
-  font-family: 'HelveticaNeueLTStd';
-}
+
 
 .bold {
   font-weight: 700;
@@ -91,7 +88,7 @@ h2 {
   text-transform: none;
 }
 .content .title h1 {
-  font-family: 'HelveticaNeueLTStd', 'Arial';
+  font-family: 'Arial';
   font-size: 40px;
   line-height: 40px;
 }
@@ -183,6 +180,10 @@ a.button {
   width: 95%;
   margin: 0 auto;
   margin-top: 20px;
+}
+
+.content .affiliations .products .product .picture  {
+  border: none; 
 }
 
 .section {
@@ -402,9 +403,8 @@ a.button {
     padding: 5px;
     box-sizing: border-box;
   }
-  .content .affiliations .products .product .picture {
-    width: 100%;
-    height: auto;
-    box-sizing: border-box;
-  }
+
+
+
+
 }

@@ -180,13 +180,20 @@ a.button {
 
 .affiliations {
   border-top: 2px #e7e7e7 solid;
+  width: 95%;
+  margin: 0 auto;
+  margin-top: 20px;
 }
 
 .section {
-  margin: 10px 0;
-  color: #a7a7a7;
+  margin-top: 14px;
+  margin-bottom: 22px;
   text-transform: uppercase;
   text-align: left;
+  font-family: Helvetica; 
+  font-weight: 100;
+  color:  #868787;
+  font-size: 20px;
 }
 
 /* Share */
@@ -263,6 +270,7 @@ a.button {
   font-size: 1.3em;
   cursor: pointer;
 }
+/* wtf? */
 
 /* Affiliations */
 .content .affiliations .products .product {
@@ -272,6 +280,7 @@ a.button {
   border-top: none;
   margin: 0;
   padding: 0;
+  margin-top: 12px;
 }
 .content .affiliations .products .product .stars ul {
   width: auto;
@@ -288,6 +297,8 @@ a.button {
   margin-left: 4px;
 }
 .content .affiliations .products .product .stars ul .star {
+  width: 15px;
+  height: 15px;
   background-color: transparent;
   background-size: 100%;
   background-repeat: no-repeat;

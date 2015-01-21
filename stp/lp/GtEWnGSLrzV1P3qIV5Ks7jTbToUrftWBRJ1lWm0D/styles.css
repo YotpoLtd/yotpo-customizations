@@ -154,6 +154,7 @@ a.button {
 
 .buttons {
   margin-top: 20px;
+  margin-bottom: 30px;
 }
 .button {
   display: inline-block;

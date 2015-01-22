@@ -155,6 +155,7 @@ a.button {
 
 .buttons {
   margin-top: 20px;
+  margin-bottom: 30px;
 }
 .button {
   display: inline-block;
@@ -188,6 +189,7 @@ a.button {
 
 .content .affiliations .products .product .picture  {
   border: none; 
+  background: none;
 }
 
 .section {

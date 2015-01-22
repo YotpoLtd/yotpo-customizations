@@ -91,6 +91,7 @@ h2 {
   text-transform: none;
 }
 .content .title h1 {
+  font-family: 'HelveticaNeueLTStd', 'Arial';
   font-size: 40px;
   line-height: 40px;
 }
@@ -103,11 +104,14 @@ h2 {
 .content .form .form-field label,
 .answer .question {
   display: inline-block;
-  width: 50%;
+  width: 80%;
   margin-bottom: 5px;
   text-align: left;
 }
 .content .form .form-field .form-input {
+  font-family: 'Arial';
+  color: #525252;
+  width: 80%;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -150,6 +154,7 @@ a.button {
 
 .buttons {
   margin-top: 20px;
+  margin-bottom: 30px;
 }
 .button {
   display: inline-block;
@@ -163,6 +168,7 @@ a.button {
 
 /* Description */
 .content .description {
+  width: 80%;
   margin: 20px auto 30px;
   font-family: inherit;
 }
@@ -236,7 +242,7 @@ a.button {
 .content .form .error {
   position: relative;
   display: inline-block;
-  width: 50%;
+  width: 80%;
   margin-top: 10px;
   font-size: 0.9em;
   text-align: left;

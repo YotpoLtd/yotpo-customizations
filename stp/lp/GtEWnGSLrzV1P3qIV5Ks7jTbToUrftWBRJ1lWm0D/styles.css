@@ -95,6 +95,7 @@ text-decoration: underline;
   line-height: 40px;
 }
 .content .title h2 {
+  font-family: 'Helvetica';
   font-size: 35px;
   line-height: 35px;
 }

@@ -93,11 +93,13 @@ text-decoration: underline;
   font-family: 'Helvetica';
   font-size: 40px;
   line-height: 40px;
+  font-weight: 100;
 }
 .content .title h2 {
   font-family: 'Helvetica';
   font-size: 35px;
   line-height: 35px;
+  font-weight: 100;
 }
 
 /* Form */

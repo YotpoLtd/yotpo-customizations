@@ -148,6 +148,9 @@
   .yotpo a:hover {
     color: #0092db !important;
   }
+  .yotpo a.yotpo-icon-yotpo-logo:hover {
+    color: #d63334 !important;
+  }
   .yotpo ul {
     list-style: none !important; }
   .yotpo textarea {
@@ -384,18 +387,35 @@
       .yotpo .primary-color-btn.yotpo-disabled:hover, .yotpo input[type="button"].primary-color-btn.yotpo-disabled:hover {
         background: #ee999b !important;
         color: white !important;
-        border: none !important; }
-  .yotpo .transparent-color-btn {
-    background: transparent;
-    color: #737373; }
-    .yotpo .transparent-color-btn span.yotpo-icon {
-      color: #737373; }
-    .yotpo .transparent-color-btn:hover span, .yotpo .transparent-color-btn:hover i {
-      color: #4f4f4f; }
-    .yotpo .transparent-color-btn.yotpo-disabled {
-      color: #e3e3e3; }
-      .yotpo .transparent-color-btn.yotpo-disabled:hover {
-        color: #e3e3e3; }
+        border: none !important;
+      }
+
+.yotpo .transparent-color-btn {
+  background: transparent;
+  color: #a2a2a2;
+}
+.yotpo .transparent-color-btn span.yotpo-icon {
+  color: #a2a2a2;
+}
+.yotpo .transparent-color-btn:hover span, .yotpo .transparent-color-btn:hover i {
+  color: #737373;
+}
+.yotpo .transparent-color-btn.yotpo-disabled {
+  color: #e3e3e3;
+}
+.yotpo .transparent-color-btn.yotpo-disabled span, .yotpo .transparent-color-btn.yotpo-disabled i {
+  color: #e3e3e3;
+}
+.yotpo .transparent-color-btn.yotpo-disabled:hover {
+  color: #e3e3e3;
+  cursor: default;
+}
+.yotpo .transparent-color-btn.yotpo-disabled:hover span, .yotpo .transparent-color-btn.yotpo-disabled:hover i {
+  color: #e3e3e3;
+  cursor: default;
+}
+
+
   .yotpo .y-label, .yotpo label.y-label {
     font-size: 13px;
     color: #737373;

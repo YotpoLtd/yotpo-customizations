@@ -20,7 +20,7 @@
     font-size: 14px;
     line-height: 17px;
     float: none;
-    color: #737373;
+    color: #4D4D4D;
     border: none;
     padding: 0;
     margin: 0;
@@ -55,7 +55,7 @@
   .yotpo .color-white {
     background: white; }
   .yotpo .color-gray {
-    background: #737373; }
+    background: #4D4D4D; }
   .yotpo .color-gray-light {
     background: #e3e3e3; }
   .yotpo .color-gray-dark {
@@ -89,7 +89,7 @@
   .yotpo .font-color-white {
     color: white; }
   .yotpo .font-color-gray {
-    color: #737373; }
+    color: #4D4D4D; }
   .yotpo .font-color-gray-light {
     color: #e3e3e3; }
   .yotpo .font-color-gray-dark {
@@ -322,7 +322,7 @@
     font-size: 13px;
 
     padding: 10px 15px;
-    background: #737373;
+    background: #4D4D4D;
     color: white;
     height: auto;
     margin: 0 0 5px 0; }
@@ -334,11 +334,11 @@
       outline-width: 0px; }
     .yotpo .yotpo-default-button.yotpo-disabled, .yotpo input[type="button"].yotpo-default-button.yotpo-disabled {
       background: #e3e3e3;
-      color: #737373; }
+      color: #4D4D4D; }
       .yotpo .yotpo-default-button.yotpo-disabled:hover, .yotpo input[type="button"].yotpo-default-button.yotpo-disabled:hover {
         cursor: default;
         background: #e3e3e3;
-        color: #737373; }
+        color: #4D4D4D; }
   .yotpo .yotpo-icon-btn {
     display: inline-block;
     padding: 6px 11px; }
@@ -400,7 +400,7 @@
   color: #a2a2a2;
 }
 .yotpo .transparent-color-btn:hover span, .yotpo .transparent-color-btn:hover i {
-  color: #737373;
+  color: #4D4D4D;
 }
 .yotpo .transparent-color-btn.yotpo-disabled {
   color: #e3e3e3;
@@ -420,7 +420,7 @@
 
   .yotpo .y-label, .yotpo label.y-label {
     font-size: 13px;
-    color: #737373;
+    color: #4D4D4D;
     padding: 20px 7px 15px 0px;
     /*max-width: 164px;*/
     min-width: 100px;
@@ -564,7 +564,7 @@
     float: right;
     position: relative; }
     .yotpo .yotpo-nav-dropdown label {
-      color: #737373;
+      color: #4D4D4D;
       padding-left: 9px;
       padding-bottom: 16px;
       font-size: 13px;
@@ -572,7 +572,7 @@
     .yotpo .yotpo-nav-dropdown .sort-wrap {
       display: inline-block; }
     .yotpo .yotpo-nav-dropdown .yotpo-icon {
-      color: #737373;
+      color: #4D4D4D;
       padding-left: 5px; }
       .yotpo .yotpo-nav-dropdown .yotpo-icon:hover {
         cursor: pointer; }
@@ -581,7 +581,7 @@
       .yotpo .yotpo-nav-dropdown .selected:hover {
         cursor: pointer; }
     .yotpo .yotpo-nav-dropdown .seperator {
-      color: #737373;
+      color: #4D4D4D;
       padding-left: 18px; }
   .yotpo .yotpo-dropdown {
     display: none;
@@ -595,10 +595,14 @@
     background: white !important;
     border: solid 1px #e3e3e3;
     z-index: 10; }
-    .yotpo .yotpo-dropdown ul {
+    .yotpo ul.yotpo-dropdown {
       background: red;
       margin: 0px;
-      padding: 0px; }
+      padding: 0px; 
+      border-bottom: 1px solid black;
+      border-right: 1px solid black;
+      width: 170px;
+      }
     .yotpo .yotpo-dropdown .list-category {
       display: block;
       padding: 7px 9px 9px 9px;
@@ -608,13 +612,17 @@
       width: 100%;
       -webkit-box-sizing: border-box;
       -moz-box-sizing: border-box;
-      box-sizing: border-box; }
+      box-sizing: border-box; 
+     
+
+       }
+
 
       .yotpo .yotpo-dropdown .list-category:first-letter {
         text-transform: capitalize; }
       .yotpo .yotpo-dropdown .list-category:hover {
         cursor: pointer;
-        background: #3399FF !important; 
+        background: #e3e3e3 !important;
         color: white !important;
 
         }
@@ -726,7 +734,7 @@
     margin-top: 2px; }
   .yotpo .yotpo-review .yotpo-header, .yotpo .yotpo-comment .yotpo-header, .yotpo .yotpo-question .yotpo-header {
     position: relative;
-    color: #737373;
+    color: #4D4D4D;
     /*.yotpo-icon-flag{
       margin-left: 11px;
     }*/ }
@@ -872,7 +880,7 @@
       white-space: normal; }
   .yotpo .yotpo-review .yotpo-footer, .yotpo .yotpo-comment .yotpo-footer, .yotpo .yotpo-question .yotpo-footer {
     position: relative;
-    color: #737373; }
+    color: #4D4D4D; }
     .yotpo .yotpo-review .yotpo-footer .footer-actions, .yotpo .yotpo-comment .yotpo-footer .footer-actions, .yotpo .yotpo-question .yotpo-footer .footer-actions {
       display: inline-block;
       float: left; }
@@ -1007,7 +1015,7 @@
     .yotpo .yotpo-tool-tip .tool-tip-content {
       font-size: 13px;
 
-      color: #737373; }
+      color: #4D4D4D; }
   .yotpo.yotpo-main-widget {
     display: block;
     width: 688px;
@@ -1179,9 +1187,9 @@
   .yotpo.yotpo-main-widget .yotpo-label .yotpo-logo-title, .yotpo .yotpo-modal-dialog .yotpo-label .yotpo-logo-title {
     float: left;
     margin-top: 15px;
-    color: #737373; }
+    color: #4D4D4D; }
   .yotpo.yotpo-main-widget .yotpo-label .yotpo-logo-title a, .yotpo .yotpo-modal-dialog .yotpo-label .yotpo-logo-title a {
-    color: #737373 !important;
+    color: #4D4D4D !important;
   }
   .yotpo.yotpo-main-widget .yotpo-label .yotpo-icon, .yotpo .yotpo-modal-dialog .yotpo-label .yotpo-icon {
     color: #21679A; }
@@ -1192,7 +1200,7 @@
   .yotpo.yotpo-main-widget .yotpo-semi-label, .yotpo .yotpo-modal-dialog .yotpo-semi-label {
     float: left; }
     .yotpo.yotpo-main-widget .yotpo-semi-label span.yotpo-icon, .yotpo .yotpo-modal-dialog .yotpo-semi-label span.yotpo-icon {
-      color: #737373; }
+      color: #4D4D4D; }
     .yotpo.yotpo-main-widget .yotpo-semi-label .yotpo-tool-tip, .yotpo .yotpo-modal-dialog .yotpo-semi-label .yotpo-tool-tip {
       padding: 0 20px;
       width: 190px; }
@@ -1388,7 +1396,7 @@
 #yotpo-testimonials-custom-tab .yotpo-label {
   padding-left: 10px; }
   #yotpo-testimonials-custom-tab .yotpo-label .yotpo-icon {
-    color: #737373;
+    color: #4D4D4D;
     font-size: 25px; }
 #yotpo-testimonials-custom-tab .yotpo-review .yotpo-main .content-title {
   color: #4f4f4f; }
@@ -1708,7 +1716,7 @@
       display: block;
       white-space: normal; }
       .yotpo.yotpo-small .yotpo-nav .yotpo-dropdown-wrapper.mobile-collapse .yotpo-menu-mobile-collapse .yotpo-nav-dropdown-category .yotpo-icon {
-        color: #737373;
+        color: #4D4D4D;
         padding-right: 12px; }
       .yotpo.yotpo-small .yotpo-nav .yotpo-dropdown-wrapper.mobile-collapse .yotpo-menu-mobile-collapse .yotpo-nav-dropdown-category .y-label {
         padding: 0; }

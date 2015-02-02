@@ -2,7 +2,7 @@
 
 .yotpo-display-wrapper {
   visibility: visible !important; }
-
+ 
 .yotpo {
   direction: LTR;
   clear: both;
@@ -987,6 +987,9 @@
         margin-top: 2px; }
   .yotpo .error {
     border: solid 1px #cc0000; }
+  .y-input-error {
+    color: #4D4D4D !important;
+  }
   .yotpo .yotpo-tool-tip {
     display: none;
     height: auto;

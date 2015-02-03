@@ -1195,7 +1195,7 @@
     color: #4D4D4D !important;
   }
   .yotpo.yotpo-main-widget .yotpo-label .yotpo-icon, .yotpo .yotpo-modal-dialog .yotpo-label .yotpo-icon {
-    color: #21679A; }
+    color: #d63334; }
   .yotpo.yotpo-main-widget .yotpo-label .yotpo-icon-btn-big, .yotpo .yotpo-modal-dialog .yotpo-label .yotpo-icon-btn-big {
     padding: 10px 5px; }
     .yotpo.yotpo-main-widget .yotpo-label .yotpo-icon-btn-big a, .yotpo .yotpo-modal-dialog .yotpo-label .yotpo-icon-btn-big a {
@@ -1237,6 +1237,8 @@
       color: #4D4D4D; }
       .yotpo .yotpo-pager .yotpo-page-element:hover {
         cursor: pointer;
+        color: #0092db;
+        text-decoration: underline;
       }
       .yotpo .yotpo-pager .yotpo-page-element.yotpo-disabled {
         color: #e3e3e3; }
@@ -1253,6 +1255,14 @@
       .yotpo .yotpo-pager .yotpo-page-element.yotpo-icon-right-arrow {
         margin-right: 0;
         margin-left: 15px; }
+       .yotpo .yotpo-pager .yotpo-page-element.yotpo-icon-left-arrow:hover {
+          text-decoration: none;
+          color: #4D4D4D;
+       } 
+       .yotpo .yotpo-pager .yotpo-page-element.yotpo-icon-right-arrow:hover {
+          text-decoration: none;
+          color: #4D4D4D;
+       }  
   .yotpo .yotpo-thank-you {
     border: solid 1px #e3e3e3;
     padding: 10px 30px;

@@ -97,9 +97,10 @@ text-decoration: underline;
 }
 .content .title h2 {
   font-family: 'Helvetica';
-  font-size: 35px;
-  line-height: 35px;
+  font-size: 52px;
+  line-height: 52px;
   font-weight: 100;
+  color: #4D4D4D;
 }
 
 /* Form */
@@ -320,6 +321,13 @@ a.button {
   background-position: 0 0;
   background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE1LjEuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPgo8IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPgo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IgoJIHdpZHRoPSIxNC44OTdweCIgaGVpZ2h0PSIxNC4xNjhweCIgdmlld0JveD0iNTAgNjAuMDgyIDE0Ljg5NyAxNC4xNjgiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgNTAgNjAuMDgyIDE0Ljg5NyAxNC4xNjgiCgkgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+Cjxwb2x5Z29uIGlkPSJzdGFyLWljb24iIGZpbGw9IiNDQ0NDQ0MiIHBvaW50cz0iNTcuNDQ5LDYwLjA4MiA1OS4yMDcsNjUuNDk0IDY0Ljg5Nyw2NS40OTQgNjAuMjkzLDY4LjgzOCA2Mi4wNTIsNzQuMjUgCgk1Ny40NDksNzAuOTA1IDUyLjg0NSw3NC4yNSA1NC42MDMsNjguODM4IDUwLDY1LjQ5NCA1NS42OSw2NS40OTQgIi8+Cjwvc3ZnPg==);
 }
+.content .affiliations .products .product .name {
+  font-family: 'Ariel';
+  font-size: 12px;
+  color: #4d4d4d;
+  font-weight: normal;
+  font-style: normal;
+}
 .duplicate-review-error {
   font-size: 22px; 
   margin-top: 20px; 
@@ -410,8 +418,5 @@ a.button {
     padding: 5px;
     box-sizing: border-box;
   }
-
-
-
 
 }

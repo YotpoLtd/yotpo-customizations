@@ -1039,7 +1039,7 @@
           position: absolute;
           left: 0; }
           .yotpo.yotpo-main-widget .yotpo-bottomline .yotpo-default-button.write-review-button {
-            top: 90px; }
+            top: 75px; }
           .yotpo.yotpo-main-widget .yotpo-bottomline .yotpo-default-button.write-question-button {
             top: 60px;
             margin-left: 5px; }
@@ -1053,18 +1053,10 @@
         display: inline-block;
         vertical-align: bottom;
         padding-bottom: 2px; }
-      .yotpo.yotpo-main-widget .yotpo-bottomline .yotpo-star-digits {
-        font-size: 24px;
-        color: #d63334;
-        font-weight: bolder;
-        position: relative;
-        bottom: 2px; 
-      }
       .yotpo.yotpo-main-widget .yotpo-bottomline .yotpo-icon-star, .yotpo.yotpo-main-widget .yotpo-bottomline .yotpo-icon-half-star, .yotpo.yotpo-main-widget .yotpo-bottomline .yotpo-icon-empty-star {
         font-size: 26px; }
       .yotpo.yotpo-main-widget .yotpo-bottomline .yotpo-sum-reviews {
         padding: 5px 0px;
-        position: absolute;
         display: inline-block; }
       .yotpo.yotpo-main-widget .yotpo-bottomline .based-on {
         vertical-align: top;
@@ -2353,3 +2345,4 @@ content:'';
 .yotpo-main-widget > .yotpo-display-wrapper > .yotpo-label.yotpo-small-box:first-child {
   padding-top: 0;
 }
+

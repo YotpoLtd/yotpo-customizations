@@ -90,13 +90,13 @@ text-decoration: underline;
   text-transform: none;
 }
 .content .title h1 {
-  font-family: 'Helvetica';
+  font-family: 'HelveticaNeueLTStd';
   font-size: 40px;
   line-height: 40px;
   font-weight: 100;
 }
 .content .title h2 {
-  font-family: 'Helvetica';
+  font-family: 'HelveticaNeueLTStd';
   font-size: 52px;
   line-height: 52px;
   font-weight: 100;
@@ -199,7 +199,7 @@ a.button {
   margin-bottom: 22px;
   text-transform: uppercase;
   text-align: left;
-  font-family: Helvetica; 
+  font-family: 'HelveticaNeueLTStd'; 
   font-weight: 100;
   color:  #868787;
   font-size: 20px;

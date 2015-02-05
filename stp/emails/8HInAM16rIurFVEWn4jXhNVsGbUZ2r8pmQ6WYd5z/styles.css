@@ -751,7 +751,7 @@
         .yotpo .yotpo-review .yotpo-header .yotpo-header-element .y-label.yotpo-user-title, .yotpo .yotpo-comment .yotpo-header .yotpo-header-element .y-label.yotpo-user-title, .yotpo .yotpo-question .yotpo-header .yotpo-header-element .y-label.yotpo-user-title {
           background: none; }
         .yotpo .yotpo-review .yotpo-header .yotpo-header-element .y-label.yotpo-user-name, .yotpo .yotpo-comment .yotpo-header .yotpo-header-element .y-label.yotpo-user-name, .yotpo .yotpo-question .yotpo-header .yotpo-header-element .y-label.yotpo-user-name {
-          color: #ADADAD; }
+          color: #d63334; }
         .yotpo .yotpo-review .yotpo-header .yotpo-header-element .y-label.yotpo-user-name {
           margin-right: 5px;
           font-family: Arial; }
@@ -867,7 +867,7 @@
       float: left;
       color: #4D4D4D;
       font-size: 20px;
-      font-family: HelveticaNeueLTStdThin;
+      font-family: HelveticaNeueLTStd-Thin;
       padding-bottom: 5px; }
     .yotpo .yotpo-review .yotpo-main .content-review, .yotpo .yotpo-comment .yotpo-main .content-review, .yotpo .yotpo-question .yotpo-main .content-review {
       display: inline;

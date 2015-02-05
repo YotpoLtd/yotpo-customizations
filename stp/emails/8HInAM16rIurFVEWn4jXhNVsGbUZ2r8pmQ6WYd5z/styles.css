@@ -622,7 +622,7 @@
         text-transform: capitalize; }
       .yotpo .yotpo-dropdown .list-category:hover {
         cursor: pointer;
-        background: #e3e3e3 !important;
+        background: #3399FF !important;
         color: white !important;
 
         }
@@ -868,7 +868,7 @@
       color: #4D4D4D;
       font-size: 20px;
       font-family: HelveticaNeueLTStd-Thin;
-      margin-bottom: 5px
+      margin-bottom: 5px;
       padding-bottom: 5px; }
     .yotpo .yotpo-review .yotpo-main .content-review, .yotpo .yotpo-comment .yotpo-main .content-review, .yotpo .yotpo-question .yotpo-main .content-review {
       display: inline;

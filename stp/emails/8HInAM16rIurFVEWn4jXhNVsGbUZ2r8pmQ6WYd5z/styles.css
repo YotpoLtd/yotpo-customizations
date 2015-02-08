@@ -1067,6 +1067,9 @@
         padding: 5px 0px;
         position: absolute;
         display: inline-block; }
+      .yotpo.yotpo-main-widget .yotpo-star-distribution .yotpo-star-distribution-content .yotpo-sum-reviews {
+        position: static;
+      }
       .yotpo.yotpo-main-widget .yotpo-bottomline .based-on {
         vertical-align: top;
         display: inline-block;

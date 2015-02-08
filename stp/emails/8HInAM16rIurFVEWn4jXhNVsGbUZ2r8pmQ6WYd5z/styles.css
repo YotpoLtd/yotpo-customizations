@@ -1026,7 +1026,8 @@
     background-color: transparent !important; }
 .yotpo.yotpo-main-widget .yotpo-bottomline .yotpo-stars-and-sum-reviews {
         float: left;
-        text-align: left; }
+        text-align: left;
+        position: relative; }
     .yotpo.yotpo-main-widget .yotpo-bottomline {
       /* Star Distribution */ }
       .yotpo.yotpo-main-widget .yotpo-bottomline {
@@ -1066,6 +1067,9 @@
         padding: 5px 0px;
         position: absolute;
         display: inline-block; }
+      .yotpo.yotpo-main-widget .yotpo-star-distribution .yotpo-star-distribution-content .yotpo-sum-reviews {
+        position: static;
+      }
       .yotpo.yotpo-main-widget .yotpo-bottomline .based-on {
         vertical-align: top;
         display: inline-block;

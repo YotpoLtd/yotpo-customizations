@@ -1026,7 +1026,8 @@
     background-color: transparent !important; }
 .yotpo.yotpo-main-widget .yotpo-bottomline .yotpo-stars-and-sum-reviews {
         float: left;
-        text-align: left; }
+        text-align: left;
+        position: relative; }
     .yotpo.yotpo-main-widget .yotpo-bottomline {
       /* Star Distribution */ }
       .yotpo.yotpo-main-widget .yotpo-bottomline {

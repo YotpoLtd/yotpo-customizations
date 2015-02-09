@@ -753,7 +753,7 @@
         .yotpo .yotpo-review .yotpo-header .yotpo-header-element .y-label.yotpo-user-name, .yotpo .yotpo-comment .yotpo-header .yotpo-header-element .y-label.yotpo-user-name, .yotpo .yotpo-question .yotpo-header .yotpo-header-element .y-label.yotpo-user-name {
           color: #d63334; }
         .yotpo .yotpo-review .yotpo-header .yotpo-header-element .y-label.yotpo-user-name {
-          margin-right: 20px;
+          margin-right: 5px;
           font-family: Arial; }
         .yotpo .yotpo-review .yotpo-header .yotpo-header-element .y-label.yotpo-review-date, .yotpo .yotpo-comment .yotpo-header .yotpo-header-element .y-label.yotpo-review-date, .yotpo .yotpo-question .yotpo-header .yotpo-header-element .y-label.yotpo-review-date {
           float: left; }

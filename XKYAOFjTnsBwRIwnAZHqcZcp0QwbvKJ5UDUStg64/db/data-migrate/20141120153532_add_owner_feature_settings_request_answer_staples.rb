@@ -22,3 +22,4 @@ fs = { :styles =>
 account = Account.where(app_key: "vEiVh2yHSPM9TzTjPeRkLRJ4pRGGIgwS4sxgfvSF").first
 account.enable_feature(:map_html_editor, true)
 account.set_feature_settings('MapHtmlEditor', {:request_answer_html_editor => fs })
+puts "hello"

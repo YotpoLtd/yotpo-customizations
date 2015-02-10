@@ -1029,11 +1029,10 @@
         float: left;
         text-align: left;
         position: relative; }
-    .yotpo.yotpo-main-widget .yotpo-bottomline {
-      /* Star Distribution */ }
       .yotpo.yotpo-main-widget .yotpo-bottomline {
         position: relative;
-        padding-bottom: 10px; }
+        padding-bottom: 10px;
+        min-height: 130px; }
         .yotpo.yotpo-main-widget .yotpo-bottomline.yotpo-bottomline-ditribution-version {
           padding-bottom: inherit; }
         .yotpo.yotpo-main-widget .yotpo-bottomline .yotpo-default-button {

@@ -143,7 +143,7 @@ text-decoration: underline;
 a.button {
   padding: 12px 24px;
   color: white;
-  background-color: #cd0303;
+  background-color: #cc0000;
   background-image: none;
   border: none;
   box-shadow: none;
@@ -153,6 +153,18 @@ a.button {
   text-transform: uppercase;
   cursor: pointer;
   font-size: 13px;
+}
+
+.content .form .form-field input[type=submit],
+a.button:hover {
+  background-color: #8c0000;
+  text-decoration: none;
+}
+
+.content .form .form-field input[type=submit],
+a.button.gray:hover {
+  background-color: #1b1b1b;
+  text-decoration: none;
 }
 
 .buttons {

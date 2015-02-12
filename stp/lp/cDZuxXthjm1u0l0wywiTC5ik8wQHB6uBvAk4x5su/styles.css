@@ -155,13 +155,12 @@ a.button {
   font-size: 13px;
 }
 
-.content .form .form-field input[type=submit],
+.content .form .form-field input[type=submit]:hover,
 a.button:hover {
   background-color: #8c0000;
   text-decoration: none;
 }
 
-.content .form .form-field input[type=submit],
 a.button.gray:hover {
   background-color: #1b1b1b;
   text-decoration: none;

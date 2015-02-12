@@ -1,7 +1,11 @@
 /* General elements rules to override general rules in client sites */
 
 .yotpo-display-wrapper {
-  visibility: visible !important; }
+  visibility: visible !important;
+  min-height: 200px; }
+
+.yotpo-display-wrapper.write-only {
+  min-height: 0px; }
 
 .yotpo {
   direction: LTR;
@@ -1023,7 +1027,6 @@
   .yotpo.yotpo-main-widget {
     display: block;
     width: 688px;
-    min-height: 200px;
     margin: 0 auto;
     background-color: transparent !important; }
 .yotpo.yotpo-main-widget .yotpo-bottomline .yotpo-stars-and-sum-reviews {

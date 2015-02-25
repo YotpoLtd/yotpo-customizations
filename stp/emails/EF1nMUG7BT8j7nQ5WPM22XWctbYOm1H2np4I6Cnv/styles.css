@@ -659,6 +659,9 @@
   }
   .yotpo .write-review .yotpo-header .y-label {
     padding-top: 0; }
+  .yotpo .write-review .yotpo-header .y-label.yotpo-header-title {
+    font-size: 26px;
+    font-family: HelveticaNeueLTStd-Light; }
   .yotpo .write-review .yotpo-header .yotpo-icon {
     color: #d63334;
     font-size: 26px;
@@ -911,9 +914,15 @@
     .yotpo .yotpo-review .yotpo-footer .yotpo-helpful, .yotpo .yotpo-comment .yotpo-footer .yotpo-helpful, .yotpo .yotpo-question .yotpo-footer .yotpo-helpful {
       display: inline-block;
       float: right; }
-      .yotpo .yotpo-review .yotpo-footer .yotpo-helpful .yotpo-sum, .yotpo .yotpo-comment .yotpo-footer .yotpo-helpful .yotpo-sum, .yotpo .yotpo-question .yotpo-footer .yotpo-helpful .yotpo-sum {
-        margin-right: 13px;
-        margin-left: 13px; }
+    .yotpo .yotpo-review .yotpo-footer .yotpo-helpful .yotpo-sum, .yotpo .yotpo-comment .yotpo-footer .yotpo-helpful .yotpo-sum, .yotpo .yotpo-question .yotpo-footer .yotpo-helpful .yotpo-sum {
+      margin-right: 0px;
+      margin-left: 0px; }
+    .yotpo .yotpo-review .yotpo-footer .yotpo-helpful .yotpo-vote-text, .yotpo .yotpo-comment .yotpo-footer .yotpo-helpful .yotpo-vote-text, .yotpo .yotpo-question .yotpo-footer .yotpo-helpful .yotpo-vote-text {
+      color: #0092db; }
+    .yotpo .yotpo-review .yotpo-footer .yotpo-helpful .yotpo-icon-thumbs-down, .yotpo .yotpo-comment .yotpo-footer .yotpo-helpful .yotpo-icon-thumbs-down, .yotpo .yotpo-question .yotpo-footer .yotpo-helpful .yotpo-icon-thumbs-down {
+      margin-left: 8px; }
+    .yotpo .yotpo-review .yotpo-footer .yotpo-helpful .transparent-color-btn span.yotpo-icon, .yotpo .yotpo-comment .yotpo-footer .yotpo-helpful .transparent-color-btn span.yotpo-icon, .yotpo .yotpo-question .yotpo-footer .yotpo-helpful .transparent-color-btn span.yotpo-icon {
+      color: #4d4d4d; }
     .yotpo .yotpo-review .yotpo-footer .share-options, .yotpo .yotpo-comment .yotpo-footer .share-options, .yotpo .yotpo-question .yotpo-footer .share-options {
       display: none; }
     .yotpo .yotpo-review .yotpo-footer .share-options .yotpo-action:first-child:before, .yotpo .yotpo-comment .yotpo-footer .share-options .yotpo-action:first-child:before, .yotpo .yotpo-question .yotpo-footer .share-options .yotpo-action:first-child:before {

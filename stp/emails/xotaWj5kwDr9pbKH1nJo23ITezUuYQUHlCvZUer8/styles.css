@@ -923,10 +923,18 @@
       margin-left: 0px; }
     .yotpo .yotpo-review .yotpo-footer .yotpo-helpful .yotpo-vote-text, .yotpo .yotpo-comment .yotpo-footer .yotpo-helpful .yotpo-vote-text, .yotpo .yotpo-question .yotpo-footer .yotpo-helpful .yotpo-vote-text {
       color: #0092db; }
+      .yotpo .yotpo-review .yotpo-footer .yotpo-helpful .yotpo-vote-text:hover, .yotpo .yotpo-comment .yotpo-footer .yotpo-helpful .yotpo-vote-text:hover, .yotpo .yotpo-question .yotpo-footer .yotpo-helpful .yotpo-vote-text:hover {
+      cursor: pointer; }
     .yotpo .yotpo-review .yotpo-footer .yotpo-helpful .yotpo-icon-thumbs-down, .yotpo .yotpo-comment .yotpo-footer .yotpo-helpful .yotpo-icon-thumbs-down, .yotpo .yotpo-question .yotpo-footer .yotpo-helpful .yotpo-icon-thumbs-down {
       margin-left: 8px; }
-    .yotpo .yotpo-review .yotpo-footer .yotpo-helpful .transparent-color-btn span.yotpo-icon, .yotpo .yotpo-comment .yotpo-footer .yotpo-helpful .transparent-color-btn span.yotpo-icon, .yotpo .yotpo-question .yotpo-footer .yotpo-helpful .transparent-color-btn span.yotpo-icon {
+    .yotpo .yotpo-review .yotpo-footer .yotpo-helpful .transparent-color-btn.vote-btn.yotpo-disabled, .yotpo .yotpo-comment .yotpo-footer .yotpo-helpful .transparent-color-btn.vote-btn.yotpo-disabled, .yotpo .yotpo-question .yotpo-footer .yotpo-helpful .transparent-color-btn.vote-btn.yotpo-disabled {
+      color: #959595; }
+    .yotpo .yotpo-review .yotpo-footer .yotpo-helpful .transparent-color-btn.vote-btn:hover, .yotpo .yotpo-comment .yotpo-footer .yotpo-helpful .transparent-color-btn:hover, .yotpo .yotpo-question .yotpo-footer .yotpo-helpful .transparent-color-btn.vote-btn:hover {
+      color: #959595; }
+    .yotpo .yotpo-review .yotpo-footer .yotpo-helpful .transparent-color-btn.vote-btn, .yotpo .yotpo-comment .yotpo-footer .yotpo-helpful .transparent-color-btn.vote-btn, .yotpo .yotpo-question .yotpo-footer .yotpo-helpful .transparent-color-btn.vote-btn {
       color: #4d4d4d; }
+      .yotpo .yotpo-review .yotpo-footer .yotpo-helpful .transparent-color-btn.vote-btn span.yotpo-icon, .yotpo .yotpo-comment .yotpo-footer .yotpo-helpful .transparent-color-btn.vote-btn span.yotpo-icon, .yotpo .yotpo-question .yotpo-footer .yotpo-helpful .transparent-color-btn.vote-btn span.yotpo-icon{
+      color: inherit; }
     .yotpo .yotpo-review .yotpo-footer .share-options, .yotpo .yotpo-comment .yotpo-footer .share-options, .yotpo .yotpo-question .yotpo-footer .share-options {
       display: none; }
     .yotpo .yotpo-review .yotpo-footer .share-options .yotpo-action:first-child:before, .yotpo .yotpo-comment .yotpo-footer .share-options .yotpo-action:first-child:before, .yotpo .yotpo-question .yotpo-footer .share-options .yotpo-action:first-child:before {

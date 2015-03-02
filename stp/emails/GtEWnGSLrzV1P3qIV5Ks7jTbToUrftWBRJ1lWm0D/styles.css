@@ -937,6 +937,7 @@
     .yotpo .yotpo-review .yotpo-footer .yotpo-helpful .yotpo-vote-text, .yotpo .yotpo-comment .yotpo-footer .yotpo-helpful .yotpo-vote-text, .yotpo .yotpo-question .yotpo-footer .yotpo-helpful .yotpo-vote-text {
       color: #0092db; }
       .yotpo .yotpo-review .yotpo-footer .yotpo-helpful .yotpo-vote-text:hover, .yotpo .yotpo-comment .yotpo-footer .yotpo-helpful .yotpo-vote-text:hover, .yotpo .yotpo-question .yotpo-footer .yotpo-helpful .yotpo-vote-text:hover {
+      text-decoration: underline !important;
       cursor: pointer; }
     .yotpo .yotpo-review .yotpo-footer .yotpo-helpful .yotpo-icon-thumbs-down, .yotpo .yotpo-comment .yotpo-footer .yotpo-helpful .yotpo-icon-thumbs-down, .yotpo .yotpo-question .yotpo-footer .yotpo-helpful .yotpo-icon-thumbs-down {
       margin-left: 8px; }

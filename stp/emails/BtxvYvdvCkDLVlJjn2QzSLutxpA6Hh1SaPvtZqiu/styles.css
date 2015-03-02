@@ -661,10 +661,10 @@
     -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#a6a6a6')";
     zoom: 1;
     overflow: hidden; }
-  .yotpo .yotpo-display-wrapper.write-only .write-review-wrapper {
-    -webkit-box-shadow: none; }
   .yotpo .yotpo-display-wrapper.yotpo-no-reviews .write-review-wrapper {
     margin-top: 115px; }
+  .yotpo .yotpo-display-wrapper.yotpo-no-reviews.write-only .write-review-wrapper {
+    margin-top: 0px; }
   .yotpo .yotpo-thank-you,
   .yotpo .write-review-wrapper {
     margin-top: 25px;

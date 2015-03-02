@@ -673,7 +673,9 @@
     padding-top: 0; }
   .yotpo .write-review .yotpo-header .y-label.yotpo-header-title {
     font-size: 26px;
-    font-family: HelveticaNeueLTStd-Light; }
+    font-weight: 300;
+    margin-bottom: 7px;
+    font-family: HelveticaNeueLTStd-Light, sans-serif; }
   .yotpo .write-review .yotpo-header .yotpo-icon {
     color: #d63334;
     font-size: 26px;

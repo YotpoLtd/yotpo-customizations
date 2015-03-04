@@ -590,6 +590,8 @@
       .yotpo .yotpo-nav-dropdown .yotpo-dropdown-button label:first-child {
         display: none; }
     .yotpo .yotpo-nav-dropdown .yotpo-dropdown-button .selected {
+      display: inline-block;
+      width: 147px;
       color: #4D4D4D !important; }
       .yotpo .yotpo-nav-dropdown .selected:hover {
         cursor: pointer; }

@@ -838,7 +838,7 @@
       color:  #999999 }
     .yotpo .yotpo-review .yotpo-header.yotpo-verified-buyer.custom-badge .yotpo-header-element .y-label.yotpo-user-title,
     .yotpo .yotpo-question .yotpo-header.yotpo-verified-buyer.custom-badge .yotpo-header-element .y-label.yotpo-user-title {
-      color: #0092db; }
+      color: #2a69fc; }
     .yotpo .yotpo-review .yotpo-header.yotpo-verified-buyer .yotpo-header-element .y-label.yotpo-user-title,
     .yotpo .yotpo-question .yotpo-header.yotpo-verified-buyer .yotpo-header-element .y-label.yotpo-user-title {
       color: #1b8e13; }
@@ -1056,7 +1056,7 @@
       .yotpo .yotpo-tool-tip .tool-tip-header .header-green {
         color: #3aba6f; }
       .yotpo .custom-badge .yotpo-tool-tip .tool-tip-header .header-green {
-        color: #0092db;
+        color: #2a69fc;
       }
       .yotpo .yotpo-tool-tip .tool-tip-header .header-orange {
         color: #efae00; }

@@ -1,0 +1,30 @@
+<div class="section">Answer</div>
+
+<div class="title">
+    <h2>Can you help?</h2>
+</div>
+
+<div class="description" ng-if="question">
+    You reviewed the <a target="_blank" href="{{ question.products_app.product_url }}">{{ question.products_app.product.name }}</a> and a fellow shopper has a question. We really appriciate your help.
+</div>
+
+<div class="question" ng-if="question">
+    <p class="bold">Q: {{ question.content }}</p>
+    <p class="date">{{ question.created_at | date: 'MM/dd/yyyy' }}<p>
+</div>
+
+<form ng-init="errorHidden = {}">
+    <div class="form-field">
+        <label for="content">Write your answer here:</label>
+        <textarea class="form-input" id="content" name="content" ng-model="formData.content" rows="6"></textarea>
+
+        <div class="error" ng-show="!cleanForm && (missedFields.indexOf('content') != -1) && !errorHidden.content">
+          <div class="message">This is a required field. Please enter the information.</div>
+          <span class="close" ng-click="errorHidden.content = true">x</span>
+        </div>
+    </div>
+
+    <div class="form-field">
+        <input name="commit" type="submit" value="{{ 'SUBMIT' | translate }}" ng-click="(errorHidden = {}) && handlers.processForm()">
+    </div>
+</form>

@@ -1,0 +1,42 @@
+<div class="section">Review</div>
+
+<div class="title">
+    <h2>What did you think?</h2>
+</div>
+
+<div class="description" ng-if="product">
+    You recently purchased a <a target="_blank" href="{{ product.product_url }}">{{ product.name }}</a>. Please take a moment to review your purchase and help inform shoppers just like you.
+</div>
+
+<form ng-init="errorHidden = {}">
+    <div star-rating rating-value="formData.review_score" star-color="starsColor"></div>
+
+    <div class="error score" ng-show="!cleanForm && (missedFields.indexOf('score') != -1) && !errorHidden.score">
+      <div class="message">This is a required field. Please enter the information.</div>
+      <span class="close" ng-click="errorHidden.score = true">x</span>
+    </div>
+
+    <div class="form-field" ng-if="reviewTitleRequired">
+        <label for="review_title">Review title:</label>
+        <input class="form-input" id="review_title" name="review_title" type="text" ng-model="formData.review_title">
+
+        <div class="error" ng-show="!cleanForm && (missedFields.indexOf('title') != -1) && !errorHidden.title">
+          <div class="message">This is a required field. Please enter the information.</div>
+          <span class="close" ng-click="errorHidden.title = true">x</span>
+        </div>
+    </div>
+
+    <div class="form-field">
+        <label for="review_content">Review:</label>
+        <textarea class="form-input" id="review_content" name="review_content" ng-model="formData.review_content" rows="6"></textarea>
+
+        <div class="error" ng-show="!cleanForm && (missedFields.indexOf('content') != -1) && !errorHidden.content">
+          <div class="message">This is a required field. Please enter the information.</div>
+          <span class="close" ng-click="errorHidden.content = true">x</span>
+        </div>
+    </div>
+
+    <div class="form-field">
+        <input name="commit" type="submit" value="{{ 'SUBMIT' | translate }}" ng-click="(errorHidden = {}) && handlers.processForm()">
+    </div>
+</form>

@@ -1334,6 +1334,8 @@
     background: white; }
   .yotpo .yotpo-display-wrapper.yotpo-no-reviews .yotpo-thank-you {
     margin-top: 114px; }
+  .yotpo[data-write-only] .yotpo-display-wrapper.yotpo-no-reviews .yotpo-thank-you {
+    margin-top: 25px; }
     .yotpo .yotpo-icon-cross {
       position: absolute;
       top: 15px;

@@ -5,7 +5,7 @@
 </div>
 
 <div class="description" ng-if="product">
-    Vous avez récemment acheté <a target="_blank" href="{{ product.product_url }}"><div ng-bind-html="product.name"></div></a>. Veuillez évaluer votre achat pour aider à informer d'autres acheteurs comme vous.
+    Vous avez récemment acheté <a ng-bind-html="product.name" target="_blank" href="{{ product.product_url }}"></a>. Veuillez évaluer votre achat pour aider à informer d'autres acheteurs comme vous.
 </div>
 
 <form ng-init="errorHidden = {}">

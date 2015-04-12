@@ -1056,7 +1056,7 @@
       .yotpo .yotpo-tool-tip .tool-tip-header .header-blue {
         color: #999; }
       .yotpo .yotpo-tool-tip .tool-tip-header .header-green {
-        color: #3aba6f; }
+        color: #1b8e13; }
       .yotpo .custom-badge .yotpo-tool-tip .tool-tip-header .header-green {
         color: #2a69fc;
       }
@@ -2165,6 +2165,12 @@ div.yotpo-preloader-wrapper {
 .yotpo.yotpo-main-widget .yotpo-bottomline .questions a,
 .yotpo .write-review .yotpo-toa a.yotpo-toa-link {
   color: #0092db !important;
+}
+
+.yotpo .yotpo-review .yotpo-read-more:hover,
+.yotpo .yotpo-comment .yotpo-read-more:hover,
+.yotpo .yotpo-question .yotpo-read-more:hover {
+  text-decoration: underline;
 }
 .yotpo-star-distribution-show-all:hover {
   text-decoration: underline;

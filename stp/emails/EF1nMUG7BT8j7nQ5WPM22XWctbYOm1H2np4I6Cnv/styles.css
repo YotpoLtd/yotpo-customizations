@@ -654,6 +654,9 @@
   .yotpo .write-review-wrapper {
     position: relative;
     width: 100%;
+    max-width: 688px;
+    margin-left: auto;
+    margin-right: auto;
     display: none;
     border-top: 1px #eeeeee solid;
     border-left: 1px #eeeeee solid;

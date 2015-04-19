@@ -1332,6 +1332,9 @@
           color: #e3e3e3;
        }
   .yotpo .yotpo-thank-you {
+    max-width: 688px;
+    margin-right: auto;
+    margin-left: auto;
     border: solid 1px #e3e3e3;
     padding: 10px 30px;
     text-align: left;

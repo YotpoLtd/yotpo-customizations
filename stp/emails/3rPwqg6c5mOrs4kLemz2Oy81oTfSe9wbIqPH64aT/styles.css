@@ -901,7 +901,8 @@
       float: left;
       color: #4D4D4D;
       font-size: 20px;
-      font-family: HelveticaNeueLTStd-Thin;
+      font-family: "Helvetica Neue","HelveticaNeue-Thin","Helvetica Neue",Helvetica,Arial,sans-serif;
+      font-weight: 200;
       margin-bottom: 5px;
       padding-bottom: 5px; }
     .yotpo .yotpo-review .yotpo-main .content-review, .yotpo .yotpo-comment .yotpo-main .content-review, .yotpo .yotpo-question .yotpo-main .content-review {

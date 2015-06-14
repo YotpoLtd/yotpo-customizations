@@ -201,15 +201,15 @@
 /* Icons */
 @font-face {
   font-family: 'yotpo-widget-font';
-  src: url("//staticw2.yotpo.com/assets/yotpo-widget-font-32469bb8e40afdb4f764b0b6e25ee62d.eot");
-  src: url("//staticw2.yotpo.com/assets/yotpo-widget-font-32469bb8e40afdb4f764b0b6e25ee62d.eot?#iefix") format("embedded-opentype"), url("//staticw2.yotpo.com/assets/yotpo-widget-font-4b5666654ad675f6df21bbf72500ac05.woff") format("woff"), url("//staticw2.yotpo.com/assets/yotpo-widget-font-c468d8ecf0038afd5a9cc759cfe17b0f.ttf") format("truetype"), url("//staticw2.yotpo.com/assets/yotpo-widget-font-ad698cb2f74f1acbbc21132c4db767c1.svg") format("svg");
+  src: url("//staticw2.yotpo.com/assets/yotpo-widget-font.eot");
+  src: url("//staticw2.yotpo.com/assets/yotpo-widget-font.eot?#iefix") format("embedded-opentype"), url("//staticw2.yotpo.com/assets/yotpo-widget-font.woff") format("woff"), url("//staticw2.yotpo.com/assets/yotpo-widget-font.ttf") format("truetype"), url("//staticw2.yotpo.com/assets/yotpo-widget-font.svg") format("svg");
   font-weight: normal;
   font-style: normal; }
 
 @media screen and (-webkit-min-device-pixel-ratio: 0) {
   @font-face {
     font-family: 'yotpo-widget-font';
-    src: url("//staticw2.yotpo.com/assets/yotpo-widget-font-ad698cb2f74f1acbbc21132c4db767c1.svg") format("svg"); } }
+    src: url("//staticw2.yotpo.com/assets/yotpo-widget-font.svg") format("svg"); } }
 .yotpo {
   /* End Icons */
   /* Buttons */

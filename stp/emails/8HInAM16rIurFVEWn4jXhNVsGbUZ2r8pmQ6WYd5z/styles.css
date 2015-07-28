@@ -452,6 +452,7 @@
     font-family: "Arial", "Verdana";
     font-size: 13px;
     height: 68px;
+    min-height: 68px;
     min-width: 148px;
     word-wrap: break-word;
     resize: vertical;

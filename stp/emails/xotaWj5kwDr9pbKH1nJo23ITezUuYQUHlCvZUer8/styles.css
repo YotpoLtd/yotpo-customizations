@@ -1426,6 +1426,9 @@
         margin-right: auto; }
       .yotpo .yotpo-first-review .yotpo-first-review-content span {
         color: #d63334; }
+  .yotpo .yotpo-display-wrapper.yotpo-no-reviews .yotpo-first-review {
+    display: block !important;
+  }
   .yotpo .yotpo-testimonials-btn {
     position: fixed;
     padding: 15px 20px;
@@ -2207,7 +2210,7 @@ div.yotpo-preloader-wrapper {
   border: none;
 }
 
-.yotpo .yotpo-review.yotpo-template {
+.yotpo .yotpo-display-wrapper.yotpo-no-reviews .yotpo-review.yotpo-regular-box {
   display: none;
 }
 

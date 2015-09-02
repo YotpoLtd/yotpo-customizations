@@ -124,9 +124,12 @@ text-decoration: underline;
 .content .form .form-field.form-field-radio .score {
   display: inline-block;
 }
+.content .form .stars .star {
+  color: #dfdfdf !important;
+}
 .content .form .form-field.form-field-radio .score label,
 .content .form .stars .star.selected {
-  color: #cd0303;
+  color: #cd0303 !important;
 }
 .content .form .stars {
   margin: 0 0 30px 0;

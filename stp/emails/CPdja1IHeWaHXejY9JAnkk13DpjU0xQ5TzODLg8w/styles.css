@@ -452,6 +452,7 @@
     font-family: "Arial", "Verdana";
     font-size: 13px;
     height: 68px;
+    min-height: 68px;
     min-width: 148px;
     word-wrap: break-word;
     resize: vertical;
@@ -1899,6 +1900,25 @@ div.yotpo-preloader-wrapper {
       position: absolute;
       overflow: hidden;
       white-space: nowrap; }
+
+      .yotpo .yotpo-review .yotpo-footer .yotpo-syndication-reference,
+.yotpo .yotpo-comment .yotpo-footer .yotpo-syndication-reference,
+.yotpo .yotpo-question .yotpo-footer .yotpo-syndication-reference {
+    margin-top: 10px
+}
+.yotpo .yotpo-review .yotpo-footer .yotpo-syndication-reference label,
+.yotpo .yotpo-comment .yotpo-footer .yotpo-syndication-reference label,
+.yotpo .yotpo-question .yotpo-footer .yotpo-syndication-reference label {
+    vertical-align: middle;
+}
+.yotpo .yotpo-review .yotpo-footer .yotpo-syndication-reference img,
+.yotpo .yotpo-comment .yotpo-footer .yotpo-syndication-reference img,
+.yotpo .yotpo-question .yotpo-footer .yotpo-syndication-reference img {
+    vertical-align: middle;
+    margin-left: 10px;
+    max-height: 30px;
+    max-width: 100px;
+}
 
 @-webkit-keyframes yotpo-pre-loader-animation {
   0% {
